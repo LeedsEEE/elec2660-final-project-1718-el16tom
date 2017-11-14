@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  SecondViewController.h
 //  Final project
 //
 //  Created by Tom Maynard [el16tom] on 07/11/2017.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FullTimeViewController : UIViewController
 
 
 @end

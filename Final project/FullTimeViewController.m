@@ -6,13 +6,13 @@
 //  Copyright © 2017 University of leeds. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "FullTimeViewController.h"
 
-@interface SecondViewController ()
+@interface FullTimeViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation FullTimeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
