@@ -20,8 +20,9 @@
 		AACADA891FBB364600EA8641 /* Part_time_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA881FBB364600EA8641 /* Part_time_ViewController.m */; };
 		AACADA8C1FBB36CE00EA8641 /* Volunteer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA8B1FBB36CE00EA8641 /* Volunteer_ViewController.m */; };
 		AACADA8F1FBB3C2D00EA8641 /* Volunteer_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA8E1FBB3C2D00EA8641 /* Volunteer_TableViewController.m */; };
-		AACADA921FBB3E1800EA8641 /* Job_class.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA911FBB3E1800EA8641 /* Job_class.m */; };
+		AACADA921FBB3E1800EA8641 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA911FBB3E1800EA8641 /* Job.m */; };
 		AACADA951FBB417200EA8641 /* FullTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA941FBB417200EA8641 /* FullTimeTableViewController.m */; };
+		AACADA981FBB4A8800EA8641 /* FullTime_info.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA971FBB4A8800EA8641 /* FullTime_info.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,10 +69,12 @@
 		AACADA8B1FBB36CE00EA8641 /* Volunteer_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Volunteer_ViewController.m; sourceTree = "<group>"; };
 		AACADA8D1FBB3C2D00EA8641 /* Volunteer_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volunteer_TableViewController.h; sourceTree = "<group>"; };
 		AACADA8E1FBB3C2D00EA8641 /* Volunteer_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Volunteer_TableViewController.m; sourceTree = "<group>"; };
-		AACADA901FBB3E1800EA8641 /* Job_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Job_class.h; sourceTree = "<group>"; };
-		AACADA911FBB3E1800EA8641 /* Job_class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Job_class.m; sourceTree = "<group>"; };
+		AACADA901FBB3E1800EA8641 /* Job.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Job.h; sourceTree = "<group>"; };
+		AACADA911FBB3E1800EA8641 /* Job.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Job.m; sourceTree = "<group>"; };
 		AACADA931FBB417200EA8641 /* FullTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullTimeTableViewController.h; sourceTree = "<group>"; };
 		AACADA941FBB417200EA8641 /* FullTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullTimeTableViewController.m; sourceTree = "<group>"; };
+		AACADA961FBB4A8800EA8641 /* FullTime_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullTime_info.h; sourceTree = "<group>"; };
+		AACADA971FBB4A8800EA8641 /* FullTime_info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullTime_info.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,10 +132,12 @@
 				AA25AF421FB216B600CA68CA /* FullTimeViewController.h */,
 				AA25AF431FB216B600CA68CA /* FullTimeViewController.m */,
 				AA25AF451FB216B700CA68CA /* Main.storyboard */,
+				AACADA961FBB4A8800EA8641 /* FullTime_info.h */,
+				AACADA971FBB4A8800EA8641 /* FullTime_info.m */,
 				AACADA931FBB417200EA8641 /* FullTimeTableViewController.h */,
 				AACADA941FBB417200EA8641 /* FullTimeTableViewController.m */,
-				AACADA901FBB3E1800EA8641 /* Job_class.h */,
-				AACADA911FBB3E1800EA8641 /* Job_class.m */,
+				AACADA901FBB3E1800EA8641 /* Job.h */,
+				AACADA911FBB3E1800EA8641 /* Job.m */,
 				AACADA8D1FBB3C2D00EA8641 /* Volunteer_TableViewController.h */,
 				AACADA8E1FBB3C2D00EA8641 /* Volunteer_TableViewController.m */,
 				AACADA8A1FBB36CE00EA8641 /* Volunteer_ViewController.h */,
@@ -310,7 +315,8 @@
 			files = (
 				AACADA861FBB35D300EA8641 /* Part_time_TableViewController.m in Sources */,
 				AA25AF441FB216B600CA68CA /* FullTimeViewController.m in Sources */,
-				AACADA921FBB3E1800EA8641 /* Job_class.m in Sources */,
+				AACADA921FBB3E1800EA8641 /* Job.m in Sources */,
+				AACADA981FBB4A8800EA8641 /* FullTime_info.m in Sources */,
 				AACADA951FBB417200EA8641 /* FullTimeTableViewController.m in Sources */,
 				AACADA8C1FBB36CE00EA8641 /* Volunteer_ViewController.m in Sources */,
 				AA25AF3E1FB216B600CA68CA /* AppDelegate.m in Sources */,

@@ -6,13 +6,13 @@
 //  Copyright © 2017 University of leeds. All rights reserved.
 //
 
-#import "Job_class.h"
+#import "Job.h"
 
-@interface Job_class ()
+@interface Job ()
 
 @end
 
-@implementation Job_class
+@implementation Job
 
 - (void)viewDidLoad {
     [super viewDidLoad];
