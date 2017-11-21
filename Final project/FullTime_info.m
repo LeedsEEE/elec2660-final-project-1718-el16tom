@@ -20,7 +20,7 @@
         PSR_solutions.hours= @"45 hours a week";
         PSR_solutions.Description=@"Applicant will need to be ready to start within 2 weeks";
         PSR_solutions.Type=@"Refurbishing offices";
-        
+        PSR_solutions.Image_1= [UIImage imageNamed: @"PSR.png"];
     
         Job *Venatu = [[Job alloc]init];
         Venatu.Company_name= @"Venatu Consulting";
@@ -28,6 +28,7 @@
         Venatu.hours= @"40 hours a week minimum";
         Venatu.Description=@"A lot of heavy lifting involved so must be physically fit";
         Venatu.Type=@"Housing development";
+        Venatu.Image_1= [UIImage imageNamed: @"Venatu.png"];
         
         
         Job *Skills_resource = [[Job alloc]init];
@@ -36,7 +37,7 @@
         Skills_resource.hours= @"37 hours a week minimum";
         Skills_resource.Description=@"Help making bespoke furniture";
         Skills_resource.Type=@"Crafting";
-        
+        Skills_resource.Image_1= [UIImage imageNamed: @"Skills.png"];
         
         
         

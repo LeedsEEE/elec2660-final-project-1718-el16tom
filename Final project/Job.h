@@ -17,5 +17,5 @@
 @property (nonatomic, strong) NSString *pay;
 @property (nonatomic, strong) NSString *hours;
 @property (nonatomic, strong) NSString *Type;
-@property UIImage*image;
+@property UIImage *Image_1;
 @end

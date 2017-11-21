@@ -7,6 +7,11 @@
 //
 
 #import "FullTimeTableViewController.h"
+#import "FullTimeViewController.h"
+
+
+
+
 
 @interface FullTimeTableViewController ()
 
@@ -16,6 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.job_info= [[FullTime_info alloc]init];
+    
+    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -38,14 +46,28 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return 4;
+    return 3;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Job_cell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
-    // Configure the cell...
+    if (indexPath.section==0) {
+        
+        
+        Job *tempJob= [self.job_info.Manual_labour objectAtIndex: indexPath.row];
+        
+        cell.textLabel.text= tempJob.Company_name;
+        cell.detailTextLabel.text= tempJob.Type;
+        
+        cell.contentView.layer.cornerRadius=4;
+        cell.contentView.layer.borderWidth=2;
+        cell.contentView.layer.borderColor= (__bridge CGColorRef _Nullable)([UIColor yellowColor]);
+        
+        
+        
+    }
     
     return cell;
 }
@@ -85,14 +107,25 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+    if ([[segue identifier] isEqualToString:@"showjobinfo"]) {
+        NSLog(@"showjobinfo");
+        
+      FullTimeViewController *destinationViewController = [segue destinationViewController];
+        
+        NSIndexPath *indexPath= [self.tableView indexPathForSelectedRow];
+            Job *tempJob = [self.job_info.Manual_labour objectAtIndex:indexPath.row ];
+            NSLog(@"temp job company = %@",tempJob.Company_name);
+            destinationViewController.job= tempJob;
+    }
 }
-*/
+
 
 @end

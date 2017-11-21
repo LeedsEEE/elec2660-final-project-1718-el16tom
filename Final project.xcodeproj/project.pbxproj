@@ -16,6 +16,9 @@
 		AA25AF4C1FB216B700CA68CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA25AF4A1FB216B700CA68CA /* LaunchScreen.storyboard */; };
 		AA25AF571FB216B700CA68CA /* Final_projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA25AF561FB216B700CA68CA /* Final_projectTests.m */; };
 		AA25AF621FB216B700CA68CA /* Final_projectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA25AF611FB216B700CA68CA /* Final_projectUITests.m */; };
+		AA3340061FC48C1A00320400 /* Venatu.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3340051FC48C1A00320400 /* Venatu.png */; };
+		AA3340081FC48C2000320400 /* PSR.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3340071FC48C2000320400 /* PSR.png */; };
+		AA33400A1FC48C2600320400 /* Skills.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3340091FC48C2600320400 /* Skills.png */; };
 		AACADA861FBB35D300EA8641 /* Part_time_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA851FBB35D300EA8641 /* Part_time_TableViewController.m */; };
 		AACADA891FBB364600EA8641 /* Part_time_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA881FBB364600EA8641 /* Part_time_ViewController.m */; };
 		AACADA8C1FBB36CE00EA8641 /* Volunteer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA8B1FBB36CE00EA8641 /* Volunteer_ViewController.m */; };
@@ -61,6 +64,9 @@
 		AA25AF5D1FB216B700CA68CA /* Final projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA25AF611FB216B700CA68CA /* Final_projectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Final_projectUITests.m; sourceTree = "<group>"; };
 		AA25AF631FB216B700CA68CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3340051FC48C1A00320400 /* Venatu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Venatu.png; sourceTree = "<group>"; };
+		AA3340071FC48C2000320400 /* PSR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSR.png; sourceTree = "<group>"; };
+		AA3340091FC48C2600320400 /* Skills.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skills.png; sourceTree = "<group>"; };
 		AACADA841FBB35D300EA8641 /* Part_time_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part_time_TableViewController.h; sourceTree = "<group>"; };
 		AACADA851FBB35D300EA8641 /* Part_time_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Part_time_TableViewController.m; sourceTree = "<group>"; };
 		AACADA871FBB364600EA8641 /* Part_time_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part_time_ViewController.h; sourceTree = "<group>"; };
@@ -149,6 +155,9 @@
 				AA25AF481FB216B700CA68CA /* Assets.xcassets */,
 				AA25AF4A1FB216B700CA68CA /* LaunchScreen.storyboard */,
 				AA25AF4D1FB216B700CA68CA /* Info.plist */,
+				AA3340051FC48C1A00320400 /* Venatu.png */,
+				AA3340071FC48C2000320400 /* PSR.png */,
+				AA3340091FC48C2600320400 /* Skills.png */,
 				AA25AF391FB216B600CA68CA /* Supporting Files */,
 			);
 			path = "Final project";
@@ -286,9 +295,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3340061FC48C1A00320400 /* Venatu.png in Resources */,
 				AA25AF4C1FB216B700CA68CA /* LaunchScreen.storyboard in Resources */,
 				AA25AF491FB216B700CA68CA /* Assets.xcassets in Resources */,
+				AA3340081FC48C2000320400 /* PSR.png in Resources */,
 				AA25AF471FB216B700CA68CA /* Main.storyboard in Resources */,
+				AA33400A1FC48C2600320400 /* Skills.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FullTime_info.h"
+#import "FullTimeViewController.h"
 
 @interface FullTimeTableViewController : UITableViewController
+
+@property (strong, nonatomic) FullTime_info *job_info;
 
 @end
