@@ -26,6 +26,8 @@
 		AACADA921FBB3E1800EA8641 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA911FBB3E1800EA8641 /* Job.m */; };
 		AACADA951FBB417200EA8641 /* FullTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA941FBB417200EA8641 /* FullTimeTableViewController.m */; };
 		AACADA981FBB4A8800EA8641 /* FullTime_info.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA971FBB4A8800EA8641 /* FullTime_info.m */; };
+		AAEE92FF1FC5E78C00F82094 /* profile_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEE92FE1FC5E78C00F82094 /* profile_pic.png */; };
+		AAEE93011FC5EB2400F82094 /* 60x60_pp.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEE93001FC5EB2400F82094 /* 60x60_pp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		AACADA941FBB417200EA8641 /* FullTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullTimeTableViewController.m; sourceTree = "<group>"; };
 		AACADA961FBB4A8800EA8641 /* FullTime_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullTime_info.h; sourceTree = "<group>"; };
 		AACADA971FBB4A8800EA8641 /* FullTime_info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullTime_info.m; sourceTree = "<group>"; };
+		AAEE92FE1FC5E78C00F82094 /* profile_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_pic.png; sourceTree = "<group>"; };
+		AAEE93001FC5EB2400F82094 /* 60x60_pp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60x60_pp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 				AA3340051FC48C1A00320400 /* Venatu.png */,
 				AA3340071FC48C2000320400 /* PSR.png */,
 				AA3340091FC48C2600320400 /* Skills.png */,
+				AAEE92FE1FC5E78C00F82094 /* profile_pic.png */,
+				AAEE93001FC5EB2400F82094 /* 60x60_pp.png */,
 				AA25AF391FB216B600CA68CA /* Supporting Files */,
 			);
 			path = "Final project";
@@ -297,10 +303,12 @@
 			files = (
 				AA3340061FC48C1A00320400 /* Venatu.png in Resources */,
 				AA25AF4C1FB216B700CA68CA /* LaunchScreen.storyboard in Resources */,
+				AAEE93011FC5EB2400F82094 /* 60x60_pp.png in Resources */,
 				AA25AF491FB216B700CA68CA /* Assets.xcassets in Resources */,
 				AA3340081FC48C2000320400 /* PSR.png in Resources */,
 				AA25AF471FB216B700CA68CA /* Main.storyboard in Resources */,
 				AA33400A1FC48C2600320400 /* Skills.png in Resources */,
+				AAEE92FF1FC5E78C00F82094 /* profile_pic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

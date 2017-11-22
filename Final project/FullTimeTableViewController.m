@@ -24,6 +24,8 @@
     self.job_info= [[FullTime_info alloc]init];
     
     
+
+    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -63,7 +65,7 @@
         
         cell.contentView.layer.cornerRadius=4;
         cell.contentView.layer.borderWidth=2;
-        cell.contentView.layer.borderColor= (__bridge CGColorRef _Nullable)([UIColor yellowColor]);
+        cell.contentView.layer.borderColor= CFBridgingRetain([UIColor yellowColor]);
         
         
         

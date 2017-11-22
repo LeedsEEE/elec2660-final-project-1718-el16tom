@@ -18,7 +18,7 @@
         PSR_solutions.Company_name= @"PSR Solutions";
         PSR_solutions.pay= @"£9.50 per hour";
         PSR_solutions.hours= @"45 hours a week";
-        PSR_solutions.Description=@"Applicant will need to be ready to start within 2 weeks";
+        PSR_solutions.Description=@"need to be ready to start within 2 weeks";
         PSR_solutions.Type=@"Refurbishing offices";
         PSR_solutions.Image_1= [UIImage imageNamed: @"PSR.png"];
     
@@ -26,7 +26,7 @@
         Venatu.Company_name= @"Venatu Consulting";
         Venatu.pay= @"£9.00 per hour";
         Venatu.hours= @"40 hours a week minimum";
-        Venatu.Description=@"A lot of heavy lifting involved so must be physically fit";
+        Venatu.Description=@"heavy lifting involved";
         Venatu.Type=@"Housing development";
         Venatu.Image_1= [UIImage imageNamed: @"Venatu.png"];
         

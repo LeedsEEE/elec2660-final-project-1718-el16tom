@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
 }
 
 
@@ -24,6 +24,37 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//sends texfiled info to the labels
+- (IBAction)Button_pressed:(UIButton *)sender {
+    
+    self.Name_label_reciever.text= self.Name_textfiled.text;
+    self.Gender_label_reciever.text= self.Gender_textfield.text;
+    
+}
+//the keyboard disappears when background is pressed
+- (IBAction)Background_pressed:(id)sender {
+    
+    if ([self.Name_textfiled isFirstResponder]) {
+        [self.Name_textfiled resignFirstResponder];
+    }
+    if ([self.Gender_textfield isFirstResponder]) {
+        [self.Gender_textfield resignFirstResponder];
+    }
+}
+
+
+//the keyboard will disappear if return is clicked
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    
+    
+    [textField resignFirstResponder];
+
+    return YES;
+
+};
+
 
 
 @end
