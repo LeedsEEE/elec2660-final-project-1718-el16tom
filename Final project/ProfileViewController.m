@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+
+    
+    
 }
 
 
@@ -30,7 +32,10 @@
     
     self.Name_label_reciever.text= self.Name_textfiled.text;
     self.Gender_label_reciever.text= self.Gender_textfield.text;
+    self.availability_label.text= self.availability_textfiled.text;
     
+
+ 
 }
 //the keyboard disappears when background is pressed
 - (IBAction)Background_pressed:(id)sender {
@@ -40,8 +45,16 @@
     }
     if ([self.Gender_textfield isFirstResponder]) {
         [self.Gender_textfield resignFirstResponder];
+        
+        
+        if ([self.availability_textfiled isFirstResponder]) {
+            [self.availability_textfiled resignFirstResponder];
+        }
+    
+    
     }
 }
+
 
 
 //the keyboard will disappear if return is clicked
@@ -54,6 +67,10 @@
     return YES;
 
 };
+
+
+
+
 
 
 

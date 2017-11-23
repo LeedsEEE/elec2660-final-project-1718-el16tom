@@ -47,6 +47,57 @@
         [self.Manual_labour addObject:Venatu];
         [self.Manual_labour addObject:Skills_resource];
         
+        //setting up second section
+        
+        self.Tech = [NSMutableArray array];
+        Job *Appleton_Academy  = [[Job alloc]init];
+        Appleton_Academy.Company_name= @"Appleton Academy";
+        Appleton_Academy.pay= @"£20,000 per year";
+        Appleton_Academy.hours= @"50 hours a week";
+        Appleton_Academy.Description=@"working in a small team";
+        Appleton_Academy.Type=@"IT support";
+        Appleton_Academy.Image_1= [UIImage imageNamed: @"appleton.png"];
+        
+        
+        Job *NRS  = [[Job alloc]init];
+        NRS.Company_name= @"Nationwide Retail Systems Ltd ";
+        NRS.pay= @"£17,000 per year";
+        NRS.hours= @"flexible week/weekend work";
+        NRS.Description=@"requires secondary education";
+        NRS.Type=@"IT help desk";
+        NRS.Image_1= [UIImage imageNamed: @"NRS.jpeg"];
+        
+        Job *Christeyns  = [[Job alloc]init];
+        Christeyns.Company_name= @"Christeyns ";
+        Christeyns.pay= @"Competitive salary";
+        Christeyns.hours= @"4 full days a week";
+        Christeyns.Description=@"requires work experience in sector";
+        Christeyns.Type=@"IT support";
+        Christeyns.Image_1= [UIImage imageNamed: @"christeyns.png"];
+        
+        
+        //second array
+        [self.Tech addObject:Appleton_Academy];
+        [self.Tech addObject:NRS];
+        [self.Tech addObject:Christeyns];
+        
+        
+        //setting up third section
+        
+        self.Chef = [NSMutableArray array];
+        Job *Ecco_Pizzeria  = [[Job alloc]init];
+        Ecco_Pizzeria.Company_name= @"Ecco Pizzeria";
+        Ecco_Pizzeria.pay= @"Competitive salary";
+        Ecco_Pizzeria.hours= @"6 days a week";
+        Ecco_Pizzeria.Description=@"2 years experience required";
+        Ecco_Pizzeria.Type=@"Preparing Pizza & Pasta dishes";
+        Ecco_Pizzeria.Image_1= [UIImage imageNamed: @"EP.png"];
+        
+        
+        //adding third array
+        [self.Chef addObject:Ecco_Pizzeria];
+        
+        
         
     
     }

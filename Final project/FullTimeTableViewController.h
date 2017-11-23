@@ -14,6 +14,7 @@
 
 @property (strong, nonatomic) FullTime_info *job_info;
 
-@property(nonatomic, strong) UIView *tableHeaderView;
+
+
 
 @end

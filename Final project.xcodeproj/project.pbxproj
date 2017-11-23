@@ -19,6 +19,10 @@
 		AA3340061FC48C1A00320400 /* Venatu.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3340051FC48C1A00320400 /* Venatu.png */; };
 		AA3340081FC48C2000320400 /* PSR.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3340071FC48C2000320400 /* PSR.png */; };
 		AA33400A1FC48C2600320400 /* Skills.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3340091FC48C2600320400 /* Skills.png */; };
+		AA5474EF1FC7484E0039D1B2 /* appleton.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5474EE1FC7484E0039D1B2 /* appleton.png */; };
+		AA5474F11FC7503C0039D1B2 /* NRS.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA5474F01FC7503C0039D1B2 /* NRS.jpeg */; };
+		AA5474F31FC751930039D1B2 /* christeyns.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5474F21FC751930039D1B2 /* christeyns.png */; };
+		AA5474F51FC754480039D1B2 /* EP.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5474F41FC754480039D1B2 /* EP.png */; };
 		AACADA861FBB35D300EA8641 /* Part_time_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA851FBB35D300EA8641 /* Part_time_TableViewController.m */; };
 		AACADA891FBB364600EA8641 /* Part_time_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA881FBB364600EA8641 /* Part_time_ViewController.m */; };
 		AACADA8C1FBB36CE00EA8641 /* Volunteer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA8B1FBB36CE00EA8641 /* Volunteer_ViewController.m */; };
@@ -69,6 +73,10 @@
 		AA3340051FC48C1A00320400 /* Venatu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Venatu.png; sourceTree = "<group>"; };
 		AA3340071FC48C2000320400 /* PSR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSR.png; sourceTree = "<group>"; };
 		AA3340091FC48C2600320400 /* Skills.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skills.png; sourceTree = "<group>"; };
+		AA5474EE1FC7484E0039D1B2 /* appleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appleton.png; sourceTree = "<group>"; };
+		AA5474F01FC7503C0039D1B2 /* NRS.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NRS.jpeg; sourceTree = "<group>"; };
+		AA5474F21FC751930039D1B2 /* christeyns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = christeyns.png; sourceTree = "<group>"; };
+		AA5474F41FC754480039D1B2 /* EP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EP.png; sourceTree = "<group>"; };
 		AACADA841FBB35D300EA8641 /* Part_time_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part_time_TableViewController.h; sourceTree = "<group>"; };
 		AACADA851FBB35D300EA8641 /* Part_time_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Part_time_TableViewController.m; sourceTree = "<group>"; };
 		AACADA871FBB364600EA8641 /* Part_time_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part_time_ViewController.h; sourceTree = "<group>"; };
@@ -164,6 +172,10 @@
 				AA3340091FC48C2600320400 /* Skills.png */,
 				AAEE92FE1FC5E78C00F82094 /* profile_pic.png */,
 				AAEE93001FC5EB2400F82094 /* 60x60_pp.png */,
+				AA5474EE1FC7484E0039D1B2 /* appleton.png */,
+				AA5474F01FC7503C0039D1B2 /* NRS.jpeg */,
+				AA5474F21FC751930039D1B2 /* christeyns.png */,
+				AA5474F41FC754480039D1B2 /* EP.png */,
 				AA25AF391FB216B600CA68CA /* Supporting Files */,
 			);
 			path = "Final project";
@@ -302,8 +314,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3340061FC48C1A00320400 /* Venatu.png in Resources */,
+				AA5474F31FC751930039D1B2 /* christeyns.png in Resources */,
+				AA5474F51FC754480039D1B2 /* EP.png in Resources */,
+				AA5474F11FC7503C0039D1B2 /* NRS.jpeg in Resources */,
 				AA25AF4C1FB216B700CA68CA /* LaunchScreen.storyboard in Resources */,
 				AAEE93011FC5EB2400F82094 /* 60x60_pp.png in Resources */,
+				AA5474EF1FC7484E0039D1B2 /* appleton.png in Resources */,
 				AA25AF491FB216B700CA68CA /* Assets.xcassets in Resources */,
 				AA3340081FC48C2000320400 /* PSR.png in Resources */,
 				AA25AF471FB216B700CA68CA /* Main.storyboard in Resources */,

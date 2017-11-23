@@ -21,12 +21,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.job_info= [[FullTime_info alloc]init];
+    self.job_info = [[FullTime_info alloc]init];
     
     
-
+    //to set up the header I used http://www.accella.net/knowledgebase/custom-header-and-footer-views-for-uitableviews/ for help
     
+   /* -(UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     
+    UIView *tableHeaderView= [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableHeaderView.frame.size.width, 22)];
+    tableHeaderView.backgroundColor = [UIColor colorWithWhite:0.5f alpha:1.0f];
+    tableHeaderView.layer.borderColor = [UIColor yellowColor].CGColor;
+    tableHeaderView.layer.borderWidth = 1.0;
+    
+    }
+    
+    */
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -42,13 +51,30 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    
+    
+        return 3;
 
-    return 1;
+
 }
+
+
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return 3;
+    NSUInteger count;
+    
+    if (section == 0)
+    {
+        count = self.job_info.Manual_labour.count;
+    } else if (section == 1) {
+        count = self.job_info.Tech.count;
+    }else if (section == 2) {
+        count = self.job_info.Chef.count;
+    }
+    
+    return count;
 }
 
 
@@ -62,10 +88,45 @@
         
         cell.textLabel.text= tempJob.Company_name;
         cell.detailTextLabel.text= tempJob.Type;
-        
+        cell.image = tempJob.Image_1;
+        //set borders in table view
         cell.contentView.layer.cornerRadius=4;
         cell.contentView.layer.borderWidth=2;
-        cell.contentView.layer.borderColor= CFBridgingRetain([UIColor yellowColor]);
+        cell.contentView.layer.borderColor= [UIColor yellowColor].CGColor;
+        
+        
+        
+    }
+    
+    
+    if (indexPath.section==1) {
+        
+        
+        Job *tempJob= [self.job_info.Tech objectAtIndex: indexPath.row];
+        
+        cell.textLabel.text= tempJob.Company_name;
+        cell.detailTextLabel.text= tempJob.Type;
+        cell.image = tempJob.Image_1;
+        //set borders in table view
+        cell.contentView.layer.cornerRadius=4;
+        cell.contentView.layer.borderWidth=2;
+        cell.contentView.layer.borderColor= [UIColor yellowColor].CGColor;
+        
+        
+        
+    }
+    if (indexPath.section==2) {
+        
+        
+        Job *tempJob= [self.job_info.Chef objectAtIndex: indexPath.row];
+        
+        cell.textLabel.text= tempJob.Company_name;
+        cell.detailTextLabel.text= tempJob.Type;
+        cell.image = tempJob.Image_1;
+        //set borders in table view
+        cell.contentView.layer.cornerRadius=4;
+        cell.contentView.layer.borderWidth=2;
+        cell.contentView.layer.borderColor= [UIColor yellowColor].CGColor;
         
         
         
@@ -118,16 +179,29 @@
     // Pass the selected object to the new view controller.
     
     if ([[segue identifier] isEqualToString:@"showjobinfo"]) {
-        NSLog(@"showjobinfo");
+    
         
       FullTimeViewController *destinationViewController = [segue destinationViewController];
         
         NSIndexPath *indexPath= [self.tableView indexPathForSelectedRow];
+        if(indexPath.section==0){
             Job *tempJob = [self.job_info.Manual_labour objectAtIndex:indexPath.row ];
-            NSLog(@"temp job company = %@",tempJob.Company_name);
             destinationViewController.job= tempJob;
     }
+        
+        if(indexPath.section==1){
+            Job *tempJob = [self.job_info.Tech objectAtIndex:indexPath.row ];
+            destinationViewController.job= tempJob;
+        }
+        if(indexPath.section==2){
+            Job *tempJob = [self.job_info.Chef objectAtIndex:indexPath.row ];
+            destinationViewController.job= tempJob;
+        }
+    }
+    
 }
 
 
-@end
+    @end
+    
+
