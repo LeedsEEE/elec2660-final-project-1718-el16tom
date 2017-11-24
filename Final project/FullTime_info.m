@@ -94,9 +94,33 @@
         Ecco_Pizzeria.Image_1= [UIImage imageNamed: @"EP.png"];
         
         
+        Job *P_L = [[Job alloc]init];
+        P_L.Company_name= @"Pizza labella";
+        P_L.pay= @"£18,000 a year";
+        P_L.hours= @"6 evenings a week";
+        P_L.Description=@"not cash in hand";
+        P_L.Type=@"grill chef";
+        P_L.Image_1= [UIImage imageNamed: @"labella.jpg"];
+        
+        
+        Job *EMC = [[Job alloc]init];
+        EMC.Company_name= @"Everyman Cinema";
+        EMC.pay= @"£15,000 a year";
+        EMC.hours= @"5 shifts a week";
+        EMC.Description=@"no experience required";
+        EMC.Type=@"plating dishes";
+        EMC.Image_1= [UIImage imageNamed: @"Everyman-Cinema-Leeds.jpg"];
+        
+        
+        
+        
+        
+        
+        
         //adding third array
         [self.Chef addObject:Ecco_Pizzeria];
-        
+        [self.Chef addObject:P_L];
+            [self.Chef addObject:EMC];
         
         
     

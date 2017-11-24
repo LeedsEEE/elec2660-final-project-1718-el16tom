@@ -23,19 +23,13 @@
     [super viewDidLoad];
     self.job_info = [[FullTime_info alloc]init];
     
+ 
+
     
-    //to set up the header I used http://www.accella.net/knowledgebase/custom-header-and-footer-views-for-uitableviews/ for help
     
-   /* -(UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     
-    UIView *tableHeaderView= [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableHeaderView.frame.size.width, 22)];
-    tableHeaderView.backgroundColor = [UIColor colorWithWhite:0.5f alpha:1.0f];
-    tableHeaderView.layer.borderColor = [UIColor yellowColor].CGColor;
-    tableHeaderView.layer.borderWidth = 1.0;
     
-    }
     
-    */
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     

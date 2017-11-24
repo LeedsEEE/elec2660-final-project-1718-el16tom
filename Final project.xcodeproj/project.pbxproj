@@ -25,11 +25,11 @@
 		AA5474F51FC754480039D1B2 /* EP.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5474F41FC754480039D1B2 /* EP.png */; };
 		AACADA861FBB35D300EA8641 /* Part_time_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA851FBB35D300EA8641 /* Part_time_TableViewController.m */; };
 		AACADA891FBB364600EA8641 /* Part_time_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA881FBB364600EA8641 /* Part_time_ViewController.m */; };
-		AACADA8C1FBB36CE00EA8641 /* Volunteer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA8B1FBB36CE00EA8641 /* Volunteer_ViewController.m */; };
-		AACADA8F1FBB3C2D00EA8641 /* Volunteer_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA8E1FBB3C2D00EA8641 /* Volunteer_TableViewController.m */; };
 		AACADA921FBB3E1800EA8641 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA911FBB3E1800EA8641 /* Job.m */; };
 		AACADA951FBB417200EA8641 /* FullTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA941FBB417200EA8641 /* FullTimeTableViewController.m */; };
 		AACADA981FBB4A8800EA8641 /* FullTime_info.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA971FBB4A8800EA8641 /* FullTime_info.m */; };
+		AAEE684F1FC81F8A00451CBC /* labella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAEE684E1FC81F8A00451CBC /* labella.jpg */; };
+		AAEE68511FC822E200451CBC /* Everyman-Cinema-Leeds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAEE68501FC822E200451CBC /* Everyman-Cinema-Leeds.jpg */; };
 		AAEE92FF1FC5E78C00F82094 /* profile_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEE92FE1FC5E78C00F82094 /* profile_pic.png */; };
 		AAEE93011FC5EB2400F82094 /* 60x60_pp.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEE93001FC5EB2400F82094 /* 60x60_pp.png */; };
 /* End PBXBuildFile section */
@@ -81,16 +81,14 @@
 		AACADA851FBB35D300EA8641 /* Part_time_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Part_time_TableViewController.m; sourceTree = "<group>"; };
 		AACADA871FBB364600EA8641 /* Part_time_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part_time_ViewController.h; sourceTree = "<group>"; };
 		AACADA881FBB364600EA8641 /* Part_time_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Part_time_ViewController.m; sourceTree = "<group>"; };
-		AACADA8A1FBB36CE00EA8641 /* Volunteer_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volunteer_ViewController.h; sourceTree = "<group>"; };
-		AACADA8B1FBB36CE00EA8641 /* Volunteer_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Volunteer_ViewController.m; sourceTree = "<group>"; };
-		AACADA8D1FBB3C2D00EA8641 /* Volunteer_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volunteer_TableViewController.h; sourceTree = "<group>"; };
-		AACADA8E1FBB3C2D00EA8641 /* Volunteer_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Volunteer_TableViewController.m; sourceTree = "<group>"; };
 		AACADA901FBB3E1800EA8641 /* Job.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Job.h; sourceTree = "<group>"; };
 		AACADA911FBB3E1800EA8641 /* Job.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Job.m; sourceTree = "<group>"; };
 		AACADA931FBB417200EA8641 /* FullTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullTimeTableViewController.h; sourceTree = "<group>"; };
 		AACADA941FBB417200EA8641 /* FullTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullTimeTableViewController.m; sourceTree = "<group>"; };
 		AACADA961FBB4A8800EA8641 /* FullTime_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullTime_info.h; sourceTree = "<group>"; };
 		AACADA971FBB4A8800EA8641 /* FullTime_info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullTime_info.m; sourceTree = "<group>"; };
+		AAEE684E1FC81F8A00451CBC /* labella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = labella.jpg; sourceTree = "<group>"; };
+		AAEE68501FC822E200451CBC /* Everyman-Cinema-Leeds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Everyman-Cinema-Leeds.jpg"; sourceTree = "<group>"; };
 		AAEE92FE1FC5E78C00F82094 /* profile_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_pic.png; sourceTree = "<group>"; };
 		AAEE93001FC5EB2400F82094 /* 60x60_pp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60x60_pp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,10 +154,6 @@
 				AACADA941FBB417200EA8641 /* FullTimeTableViewController.m */,
 				AACADA901FBB3E1800EA8641 /* Job.h */,
 				AACADA911FBB3E1800EA8641 /* Job.m */,
-				AACADA8D1FBB3C2D00EA8641 /* Volunteer_TableViewController.h */,
-				AACADA8E1FBB3C2D00EA8641 /* Volunteer_TableViewController.m */,
-				AACADA8A1FBB36CE00EA8641 /* Volunteer_ViewController.h */,
-				AACADA8B1FBB36CE00EA8641 /* Volunteer_ViewController.m */,
 				AACADA871FBB364600EA8641 /* Part_time_ViewController.h */,
 				AACADA881FBB364600EA8641 /* Part_time_ViewController.m */,
 				AACADA841FBB35D300EA8641 /* Part_time_TableViewController.h */,
@@ -176,6 +170,8 @@
 				AA5474F01FC7503C0039D1B2 /* NRS.jpeg */,
 				AA5474F21FC751930039D1B2 /* christeyns.png */,
 				AA5474F41FC754480039D1B2 /* EP.png */,
+				AAEE684E1FC81F8A00451CBC /* labella.jpg */,
+				AAEE68501FC822E200451CBC /* Everyman-Cinema-Leeds.jpg */,
 				AA25AF391FB216B600CA68CA /* Supporting Files */,
 			);
 			path = "Final project";
@@ -314,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3340061FC48C1A00320400 /* Venatu.png in Resources */,
+				AAEE68511FC822E200451CBC /* Everyman-Cinema-Leeds.jpg in Resources */,
 				AA5474F31FC751930039D1B2 /* christeyns.png in Resources */,
 				AA5474F51FC754480039D1B2 /* EP.png in Resources */,
 				AA5474F11FC7503C0039D1B2 /* NRS.jpeg in Resources */,
@@ -324,6 +321,7 @@
 				AA3340081FC48C2000320400 /* PSR.png in Resources */,
 				AA25AF471FB216B700CA68CA /* Main.storyboard in Resources */,
 				AA33400A1FC48C2600320400 /* Skills.png in Resources */,
+				AAEE684F1FC81F8A00451CBC /* labella.jpg in Resources */,
 				AAEE92FF1FC5E78C00F82094 /* profile_pic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,9 +352,7 @@
 				AACADA921FBB3E1800EA8641 /* Job.m in Sources */,
 				AACADA981FBB4A8800EA8641 /* FullTime_info.m in Sources */,
 				AACADA951FBB417200EA8641 /* FullTimeTableViewController.m in Sources */,
-				AACADA8C1FBB36CE00EA8641 /* Volunteer_ViewController.m in Sources */,
 				AA25AF3E1FB216B600CA68CA /* AppDelegate.m in Sources */,
-				AACADA8F1FBB3C2D00EA8641 /* Volunteer_TableViewController.m in Sources */,
 				AA25AF411FB216B600CA68CA /* ProfileViewController.m in Sources */,
 				AACADA891FBB364600EA8641 /* Part_time_ViewController.m in Sources */,
 				AA25AF3B1FB216B600CA68CA /* main.m in Sources */,

@@ -30,14 +30,17 @@ https://www.trade-soft.co.uk/psr-solutions/ PSR consulting
 @property (weak, nonatomic) IBOutlet UILabel *Name_label_reciever;
 @property (weak, nonatomic) IBOutlet UILabel *Gender_label_reciever;
 @property (weak, nonatomic) IBOutlet UILabel *availability_label;
+@property (strong, nonatomic) UIDatePicker *datepicker;
+@property UIBarButtonItem *done_button;
 
 
 
 - (IBAction)Button_pressed:(UIButton *)sender;
 - (IBAction)Background_pressed:(id)sender;
 
+-(void)ShowSelctedDate;
 
-// date picker https://www.youtube.com/watch?v=849WOypYEuw
+
 
 
 
