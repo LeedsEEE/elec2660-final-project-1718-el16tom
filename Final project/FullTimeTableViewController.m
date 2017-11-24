@@ -24,12 +24,6 @@
     self.job_info = [[FullTime_info alloc]init];
     
  
-
-    
-    
-    
-    
-    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -69,6 +63,63 @@
     }
     
     return count;
+    
+}
+
+
+//http://www.accella.net/knowledgebase/custom-header-and-footer-views-for-uitableviews/
+//sets height for header so that it allows
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 30;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    
+    // 1. The view for the header
+    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 27)];
+    
+    // 2.background
+    headerView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0];
+    headerView.layer.borderColor = [UIColor yellowColor].CGColor;
+    headerView.layer.borderWidth = 2.0;
+    headerView.layer.cornerRadius= 2.0;
+    // 3. Add a label
+    
+    
+    UILabel* headerLabel = [[UILabel alloc] init];
+    headerLabel.frame = CGRectMake(2, 0, tableView.frame.size.width - 5, 30);
+    headerLabel.backgroundColor = [UIColor colorWithRed:0.5 green:0 blue:0.4 alpha:1];
+    headerLabel.textColor = [UIColor yellowColor];
+    headerLabel.font = [UIFont boldSystemFontOfSize:16.0];
+    headerLabel.textAlignment = NSTextAlignmentLeft;
+    
+  
+                            
+    
+    if(section==0){
+         headerLabel.text = @"Manual labour";
+       
+    }
+    if(section==1){
+         headerLabel.text = @"Tech";
+    }
+    if(section==2){
+         headerLabel.text = @"Catering";
+    }
+    
+  
+    
+    // 4. Add the label to the header view
+    [headerView addSubview:headerLabel];
+
+
+    
+    
+    
+    // 5. Finally return
+    return headerView;
 }
 
 

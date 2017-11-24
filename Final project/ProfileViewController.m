@@ -13,7 +13,7 @@
 @end
 
 @implementation ProfileViewController
-
+/*
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.datepicker=[[UIDatePicker alloc]init];
@@ -32,7 +32,7 @@ style:UIBarButtonItemStyleBordered target:self action:@selector(ShowSelctedDate)
 }
 
 
-
+*/
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -70,16 +70,16 @@ style:UIBarButtonItemStyleBordered target:self action:@selector(ShowSelctedDate)
     if ([self.Name_textfiled isFirstResponder]) {
         [self.Name_textfiled resignFirstResponder];
     }
-    if ([self.Gender_textfield isFirstResponder]) {
+   if ([self.Gender_textfield isFirstResponder]) {
         [self.Gender_textfield resignFirstResponder];
         
-        
-        if ([self.availability_textfiled isFirstResponder]) {
-            [self.availability_textfiled resignFirstResponder];
-        }
+   }
     
+
+       if ([self.availability_textfiled isFirstResponder]) {
+           [self.availability_textfiled resignFirstResponder];
+       }
     
-    }
 }
 
 

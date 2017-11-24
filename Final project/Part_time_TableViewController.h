@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Job.h"
+#import "FullTime_info.h"
 
 @interface Part_time_TableViewController : UITableViewController
+
+@property (strong, nonatomic) FullTime_info *job_info;
 
 @end

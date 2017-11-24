@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+    self.name_label.text= self.job.Company_name;
+    self.Type_label.text= self.job.Type;
+    self.Pay_label.text= self.job.pay;
+    self.Hours_label.text = self.job.hours;
+    self.Description_label.text= self.job.Description;
+    self.Image_2.image= self.job.Image_1;
+
 }
 
 - (void)didReceiveMemoryWarning {

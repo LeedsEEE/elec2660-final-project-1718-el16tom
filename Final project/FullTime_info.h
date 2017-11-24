@@ -10,9 +10,14 @@
 #import "Job.h"
 
 @interface FullTime_info : NSObject
-//creating the sections for the full time table view
+//creating the arrays for the full time table view
 @property (strong, nonatomic) NSMutableArray *Manual_labour;//this will be the first array
 @property (strong, nonatomic) NSMutableArray *Tech;
 @property (strong, nonatomic) NSMutableArray *Chef;
+
+
+
+//creating arrays for the part time table view
+//@property (strong, nonatomic) NSMutableArray *hospi
 
 @end
