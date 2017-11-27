@@ -56,7 +56,7 @@
         Appleton_Academy.hours= @"50 hours a week";
         Appleton_Academy.Description=@"working in a small team";
         Appleton_Academy.Type=@"IT support";
-        Appleton_Academy.Image_1= [UIImage imageNamed: @"appleton.png"];
+        Appleton_Academy.Image_1= [UIImage imageNamed: @"appleton_3.png"];
         
         
         Job *NRS  = [[Job alloc]init];
@@ -65,7 +65,7 @@
         NRS.hours= @"flexible week/weekend work";
         NRS.Description=@"requires secondary education";
         NRS.Type=@"IT help desk";
-        NRS.Image_1= [UIImage imageNamed: @"NRS.jpeg"];
+        NRS.Image_1= [UIImage imageNamed: @"NRS_2.jpeg"];
         
         Job *Christeyns  = [[Job alloc]init];
         Christeyns.Company_name= @"Christeyns ";
@@ -73,7 +73,7 @@
         Christeyns.hours= @"4 full days a week";
         Christeyns.Description=@"requires work experience in sector";
         Christeyns.Type=@"IT support";
-        Christeyns.Image_1= [UIImage imageNamed: @"christeyns.png"];
+        Christeyns.Image_1= [UIImage imageNamed: @"christeyns_2.png"];
         
         
         //second array
@@ -91,7 +91,7 @@
         Ecco_Pizzeria.hours= @"6 days a week";
         Ecco_Pizzeria.Description=@"2 years experience required";
         Ecco_Pizzeria.Type=@"Preparing Pizza & Pasta dishes";
-        Ecco_Pizzeria.Image_1= [UIImage imageNamed: @"EP.png"];
+        Ecco_Pizzeria.Image_1= [UIImage imageNamed: @"EP_2.png"];
         
         
         Job *P_L = [[Job alloc]init];
@@ -100,7 +100,7 @@
         P_L.hours= @"6 evenings a week";
         P_L.Description=@"not cash in hand";
         P_L.Type=@"grill chef";
-        P_L.Image_1= [UIImage imageNamed: @"labella.jpg"];
+        P_L.Image_1= [UIImage imageNamed: @"labella_2.jpg"];
         
         
         Job *EMC = [[Job alloc]init];
@@ -109,7 +109,7 @@
         EMC.hours= @"5 shifts a week";
         EMC.Description=@"no experience required";
         EMC.Type=@"plating dishes";
-        EMC.Image_1= [UIImage imageNamed: @"Everyman-Cinema-Leeds.jpg"];
+        EMC.Image_1= [UIImage imageNamed: @"Everyman-Cinema-Leeds_2.jpg"];
         
         
         
@@ -120,10 +120,79 @@
         //adding third array
         [self.Chef addObject:Ecco_Pizzeria];
         [self.Chef addObject:P_L];
-            [self.Chef addObject:EMC];
+        [self.Chef addObject:EMC];
         
         
+        //second tableview first array
+        
+        
+        
+        self.hospitality = [NSMutableArray array];
+        Job *Greggs = [[Job alloc]init];
+        Greggs.Company_name= @"Greggs";
+        Greggs.pay= @"Upto £22,000 a year";
+        Greggs.hours= @"Early morning shifts";
+        Greggs.Description=@"Employee benefits available";
+        Greggs.Type=@"Store manager";
+        Greggs.Image_2= [UIImage imageNamed: @"greggs_2.png"];
+        
+        Job *NHS = [[Job alloc]init];
+        NHS.Company_name= @"NHS";
+        NHS.pay= @"£20,000 a year";
+        NHS.hours= @"3 days a week";
+        NHS.Description=@"Must provide 3 years of work refernece";
+        NHS.Type=@"Barista";
+        NHS.Image_2= [UIImage imageNamed: @"NHS.png"];
+        
+        
+        Job *Atlas = [[Job alloc]init];
+        Atlas.Company_name= @"AtlasCorp";
+        Atlas.pay= @"£18,000-£24,000 a year";
+        Atlas.hours= @"Flexible hours";
+        Atlas.Description=@"Bonus package available";
+        Atlas.Type=@"Trainee events manager";
+        Atlas.Image_2= [UIImage imageNamed: @"AC.png"];
+        
+        
+        
+        [self.hospitality addObject:Greggs];
+        [self.hospitality addObject:NHS];
+        [self.hospitality addObject:Atlas];
     
+        
+        //second tableview second array
+        
+        self.receptionist = [NSMutableArray array];
+        Job *Derwent = [[Job alloc]init];
+        Derwent.Company_name= @"Derwent";
+        Derwent.pay= @"£19,000 a year";
+        Derwent.hours= @"Mon,Tues & Thurs 9-5";
+        Derwent.Description=@"Wide range of tasks";
+        Derwent.Type=@"Help desk operator";
+        Derwent.Image_2= [UIImage imageNamed: @"Derwent.png"];
+        
+        [self.receptionist addObject:Derwent];
+        
+        
+        
+        
+        
+        
+        //second tableview third array
+        
+        self.gardening = [NSMutableArray array];
+        Job *GD = [[Job alloc]init];
+        GD.Company_name= @"Argyll and Bute Council";
+        GD.pay= @"Competitive salary";
+        GD.hours= @"9-5, Wednes-Sun";
+        GD.Description=@"Maintaing the graveyard";
+        GD.Type=@"Grave digger";
+        GD.Image_2= [UIImage imageNamed: @"GD.jpeg"];
+        
+         [self.gardening addObject:GD];
+        
+        
+        
     }
     return self;
 }

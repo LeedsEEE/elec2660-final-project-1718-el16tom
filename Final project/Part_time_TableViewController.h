@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Job.h"
 #import "FullTime_info.h"
+#import "Part_time_ViewController.h"
 
 @interface Part_time_TableViewController : UITableViewController
 

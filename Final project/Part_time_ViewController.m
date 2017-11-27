@@ -23,7 +23,7 @@
     self.Pay_label.text= self.job.pay;
     self.Hours_label.text = self.job.hours;
     self.Description_label.text= self.job.Description;
-    self.Image_2.image= self.job.Image_1;
+    self.Image_2.image= self.job.Image_2;
 
 }
 

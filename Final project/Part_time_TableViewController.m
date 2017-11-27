@@ -45,13 +45,13 @@
 
     NSUInteger count;
     
-    if (section == 0)
-    {
-        count = self.job_info.Manual_labour.count;
-    } else if (section == 1) {
-        count = self.job_info.Tech.count;
-    }else if (section == 2) {
-        count = self.job_info.Chef.count;
+   
+    if(section==0){
+        count = self.job_info.hospitality.count;
+    }else if(section==1){
+          count = self.job_info.receptionist.count;
+    }else{
+          count = self.job_info.gardening.count;
     }
     
     return count;
@@ -60,9 +60,48 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell_2" forIndexPath:indexPath];
     
-    // Configure the cell...
+  
+    
+   
+        
+    if(indexPath.section==0){
+        Job *tempJob= [self.job_info.hospitality  objectAtIndex: indexPath.row];
+        
+        cell.textLabel.text= tempJob.Company_name;
+        cell.detailTextLabel.text= tempJob.Type;
+        cell.image = tempJob.Image_2;
+        //set borders in table view
+        cell.contentView.layer.cornerRadius=4;
+        cell.contentView.layer.borderWidth=2;
+        cell.contentView.layer.borderColor= [UIColor yellowColor].CGColor;
+    }
+    if(indexPath.section==1){
+        Job *tempJob= [self.job_info.receptionist  objectAtIndex: indexPath.row];
+        
+        cell.textLabel.text= tempJob.Company_name;
+        cell.detailTextLabel.text= tempJob.Type;
+        cell.image = tempJob.Image_2;
+        //set borders in table view
+        cell.contentView.layer.cornerRadius=4;
+        cell.contentView.layer.borderWidth=2;
+        cell.contentView.layer.borderColor= [UIColor yellowColor].CGColor;
+    }
+    if (indexPath.section==2) {
+        Job *tempJob= [self.job_info.gardening  objectAtIndex: indexPath.row];
+        
+        cell.textLabel.text= tempJob.Company_name;
+        cell.detailTextLabel.text= tempJob.Type;
+        cell.image = tempJob.Image_2;
+        //set borders in table view
+        cell.contentView.layer.cornerRadius=4;
+        cell.contentView.layer.borderWidth=2;
+        cell.contentView.layer.borderColor= [UIColor yellowColor].CGColor;
+    }
+    
+        
+ 
     
     return cell;
 }
@@ -102,14 +141,36 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+
+
+    if ([[segue identifier] isEqualToString:@"ShowJob"]) {
+        
+        
+        Part_time_ViewController *destinationViewController = [segue destinationViewController];
+        
+        NSIndexPath *indexPath= [self.tableView indexPathForSelectedRow];
+        if(indexPath.section==0){
+            Job *tempJob = [self.job_info.hospitality  objectAtIndex:indexPath.row ];
+            destinationViewController.job= tempJob;
+        }
+        if(indexPath.section==1){
+            Job *tempJob = [self.job_info.receptionist  objectAtIndex:indexPath.row ];
+            destinationViewController.job= tempJob;
+        }
+        if(indexPath.section==2){
+            Job *tempJob = [self.job_info.gardening  objectAtIndex:indexPath.row ];
+            destinationViewController.job= tempJob;
+        }
+    }
+
 }
-*/
+
 
 @end

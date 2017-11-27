@@ -56,6 +56,8 @@ style:UIBarButtonItemStyleBordered target:self action:@selector(ShowSelctedDate)
     self.Gender_label_reciever.text= self.Gender_textfield.text;
     self.availability_label.text= self.availability_textfiled.text;
     
+    //the info inputted here was meant to be saved to the app so that it could be used on another tab, this would require using Coredata which I haven't worked out how to use
+    //so can't implement it
 
  
 }

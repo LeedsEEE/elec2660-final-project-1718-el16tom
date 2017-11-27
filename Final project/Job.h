@@ -18,4 +18,5 @@
 @property (nonatomic, strong) NSString *hours;
 @property (nonatomic, strong) NSString *Type;
 @property UIImage *Image_1;
+@property UIImage *Image_2;
 @end

@@ -18,6 +18,8 @@
 
 
 //creating arrays for the part time table view
-//@property (strong, nonatomic) NSMutableArray *hospi
+@property (strong, nonatomic) NSMutableArray *hospitality;
+@property (strong, nonatomic) NSMutableArray *receptionist;
+@property (strong, nonatomic) NSMutableArray *gardening;
 
 @end

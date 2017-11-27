@@ -14,15 +14,6 @@
 #pragma mark image references for the whole prject
 
 
-/* https://www.azelerecambios.com link for profile icon image
-https://www.trade-soft.co.uk/psr-solutions/ PSR consulting
- https://www.linkedin.com/company/venatu-consulting venatu image
- http://www.skillsresource.co.uk skills employment agency image
- http://www.appletonacademy.co.uk appleton academy
- 
- 
- 
- */
 @property (weak, nonatomic) IBOutlet UITextField *availability_textfiled;
 
 @property (weak, nonatomic) IBOutlet UITextField *Name_textfiled;
@@ -38,7 +29,7 @@ https://www.trade-soft.co.uk/psr-solutions/ PSR consulting
 - (IBAction)Button_pressed:(UIButton *)sender;
 - (IBAction)Background_pressed:(id)sender;
 
--(void)ShowSelctedDate;
+
 
 
 

@@ -26,7 +26,7 @@
     self.Weekly_hours_label.text = self.job.hours;
     self.Description_label.text= self.job.Description;
     self.Logo.image= self.job.Image_1;
-    
+    NSLog(@"storyboard elements connected to array");
  
 }
 

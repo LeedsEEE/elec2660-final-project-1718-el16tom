@@ -90,10 +90,10 @@
     
     UILabel* headerLabel = [[UILabel alloc] init];
     headerLabel.frame = CGRectMake(2, 0, tableView.frame.size.width - 5, 30);
-    headerLabel.backgroundColor = [UIColor colorWithRed:0.5 green:0 blue:0.4 alpha:1];
+    headerLabel.backgroundColor = [UIColor colorWithRed:0.4 green:0 blue:0.4 alpha:1];
     headerLabel.textColor = [UIColor yellowColor];
     headerLabel.font = [UIFont boldSystemFontOfSize:16.0];
-    headerLabel.textAlignment = NSTextAlignmentLeft;
+    headerLabel.textAlignment = NSTextAlignmentCenter;
     
   
                             
