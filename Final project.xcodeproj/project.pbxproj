@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0C21791FCDBFAE009A3EC6 /* pp@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0C21781FCDBFAD009A3EC6 /* pp@1x.png */; };
+		AA0C217B1FCDC013009A3EC6 /* pp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0C217A1FCDC013009A3EC6 /* pp@2x.png */; };
+		AA0C217D1FCDC099009A3EC6 /* pp@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0C217C1FCDC098009A3EC6 /* pp@3x.png */; };
+		AA0C217F1FCDC269009A3EC6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0C217E1FCDC269009A3EC6 /* logo.png */; };
+		AA1B51981FCDA6E400A9A0BD /* Homepage_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1B51971FCDA6E400A9A0BD /* Homepage_ViewController.m */; };
 		AA25AF3B1FB216B600CA68CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA25AF3A1FB216B600CA68CA /* main.m */; };
 		AA25AF3E1FB216B600CA68CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA25AF3D1FB216B600CA68CA /* AppDelegate.m */; };
 		AA25AF411FB216B600CA68CA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA25AF401FB216B600CA68CA /* ProfileViewController.m */; };
@@ -66,6 +71,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA0C21781FCDBFAD009A3EC6 /* pp@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp@1x.png"; sourceTree = "<group>"; };
+		AA0C217A1FCDC013009A3EC6 /* pp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp@2x.png"; sourceTree = "<group>"; };
+		AA0C217C1FCDC098009A3EC6 /* pp@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp@3x.png"; sourceTree = "<group>"; };
+		AA0C217E1FCDC269009A3EC6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		AA1B51961FCDA6E400A9A0BD /* Homepage_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Homepage_ViewController.h; path = ../Homepage_ViewController.h; sourceTree = "<group>"; };
+		AA1B51971FCDA6E400A9A0BD /* Homepage_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Homepage_ViewController.m; path = ../Homepage_ViewController.m; sourceTree = "<group>"; };
 		AA25AF361FB216B600CA68CA /* Final project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA25AF3A1FB216B600CA68CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA25AF3C1FB216B600CA68CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +186,8 @@
 				AA25AF401FB216B600CA68CA /* ProfileViewController.m */,
 				AA25AF421FB216B600CA68CA /* FullTimeViewController.h */,
 				AA25AF431FB216B600CA68CA /* FullTimeViewController.m */,
+				AA1B51961FCDA6E400A9A0BD /* Homepage_ViewController.h */,
+				AA1B51971FCDA6E400A9A0BD /* Homepage_ViewController.m */,
 				AA25AF451FB216B700CA68CA /* Main.storyboard */,
 				AACADA961FBB4A8800EA8641 /* FullTime_info.h */,
 				AACADA971FBB4A8800EA8641 /* FullTime_info.m */,
@@ -189,6 +202,10 @@
 				AA25AF481FB216B700CA68CA /* Assets.xcassets */,
 				AA25AF4A1FB216B700CA68CA /* LaunchScreen.storyboard */,
 				AA25AF4D1FB216B700CA68CA /* Info.plist */,
+				AA0C217C1FCDC098009A3EC6 /* pp@3x.png */,
+				AA0C217A1FCDC013009A3EC6 /* pp@2x.png */,
+				AA0C21781FCDBFAD009A3EC6 /* pp@1x.png */,
+				AA0C217E1FCDC269009A3EC6 /* logo.png */,
 				AA3340051FC48C1A00320400 /* Venatu.png */,
 				AA3340071FC48C2000320400 /* PSR.png */,
 				AA3340091FC48C2600320400 /* Skills.png */,
@@ -363,14 +380,18 @@
 				AA9166AD1FCC3F85005787FA /* AC.png in Resources */,
 				AAD072421FCC4D9900ED9CEC /* GD.jpeg in Resources */,
 				AA5474F11FC7503C0039D1B2 /* NRS.jpeg in Resources */,
+				AA0C217F1FCDC269009A3EC6 /* logo.png in Resources */,
 				AA25AF4C1FB216B700CA68CA /* LaunchScreen.storyboard in Resources */,
 				AAD0723E1FCC476700ED9CEC /* labella_2.jpg in Resources */,
+				AA0C217B1FCDC013009A3EC6 /* pp@2x.png in Resources */,
 				AAD0723C1FCC474700ED9CEC /* Everyman-Cinema-Leeds_2.jpg in Resources */,
+				AA0C21791FCDBFAE009A3EC6 /* pp@1x.png in Resources */,
 				AAEE93011FC5EB2400F82094 /* 60x60_pp.png in Resources */,
 				AAA7CC571FC868A300C0ED49 /* spade.png in Resources */,
 				AA5474EF1FC7484E0039D1B2 /* appleton.png in Resources */,
 				AAD0723A1FCC46E400ED9CEC /* greggs_2.png in Resources */,
 				AA25AF491FB216B700CA68CA /* Assets.xcassets in Resources */,
+				AA0C217D1FCDC099009A3EC6 /* pp@3x.png in Resources */,
 				AA3340081FC48C2000320400 /* PSR.png in Resources */,
 				AA25AF471FB216B700CA68CA /* Main.storyboard in Resources */,
 				AA9166A91FCC3CC3005787FA /* greggs.png in Resources */,
@@ -407,6 +428,7 @@
 				AA25AF441FB216B600CA68CA /* FullTimeViewController.m in Sources */,
 				AACADA921FBB3E1800EA8641 /* Job.m in Sources */,
 				AACADA981FBB4A8800EA8641 /* FullTime_info.m in Sources */,
+				AA1B51981FCDA6E400A9A0BD /* Homepage_ViewController.m in Sources */,
 				AACADA951FBB417200EA8641 /* FullTimeTableViewController.m in Sources */,
 				AA25AF3E1FB216B600CA68CA /* AppDelegate.m in Sources */,
 				AA25AF411FB216B600CA68CA /* ProfileViewController.m in Sources */,

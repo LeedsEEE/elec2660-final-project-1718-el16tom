@@ -13,39 +13,32 @@
 @end
 
 @implementation ProfileViewController
-/*
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.datepicker=[[UIDatePicker alloc]init];
-    self.datepicker.datePickerMode=UIDatePickerModeDate;
-    [self.availability_textfiled setInputView:self.datepicker];
-    //https://www.youtube.com/watch?v=849WOypYEuw
-    UIToolbar *toolbar=[[UIToolbar alloc]initWithFrame:CGRectMake(0, 0, 320, 44)];
-    [toolbar setTintColor:[UIColor grayColor]];
-    UIBarButtonItem *done_button= [[UIBarButtonItem alloc]initwithTitle:@"Done"
-style:UIBarButtonItemStyleBordered target:self action:@selector(ShowSelctedDate)];
-    UIBarButtonItem *space=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
-    [toolbar setItems:[NSArray arrayWithObjects:space,done_button,nil]];
-    [self.availability_textfiled setInputAccessoryView:toolbar];
+  
+ // https://stackoverflow.com/questions/30034951/how-do-i-add-a-date-of-birth-uidatepicker-to-uitextfield
     
-    
+   self.availability_textfiled.delegate = self;
+   
+    UIDatePicker *datePicker = [[UIDatePicker alloc]init];
+    [datePicker setDate:[NSDate date]];
+    datePicker.datePickerMode = UIDatePickerModeDate;
+    [datePicker addTarget:self action:@selector(dateTextField:) forControlEvents:UIControlEventValueChanged];
+    [self.availability_textfiled setInputView:datePicker];
 }
 
 
-*/
+  
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-
-#pragma datepicker delegates
--(void)ShowSelctedDate{
-    NSDateFormatter *formatter=[[NSDateFormatter alloc]init];
-    [formatter setDateFormat:@"dd/MMM/YYYY"];
-    self.availability_textfiled.text=[NSString stringWithFormat:@"@",[formatter stringFromDate:self.datepicker.date]];
-}
 
 
 
@@ -96,8 +89,16 @@ style:UIBarButtonItemStyleBordered target:self action:@selector(ShowSelctedDate)
     return YES;
 
 };
-
-
+ // https://stackoverflow.com/questions/30034951/how-do-i-add-a-date-of-birth-uidatepicker-to-uitextfield
+-(void) dateTextField:(id)sender{
+    UIDatePicker *datePicker = (UIDatePicker*)self.availability_textfiled.inputView;
+    [datePicker setMaximumDate:[NSDate date]];
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    NSDate *eventDate = datePicker.date;
+    [dateFormat setDateFormat:@"dd/MM/yyyy"];
+    NSString *dateString = [dateFormat stringFromDate:eventDate];
+    self.availability_textfiled.text = [NSString stringWithFormat:@"%@",dateString];
+}
 
 
 

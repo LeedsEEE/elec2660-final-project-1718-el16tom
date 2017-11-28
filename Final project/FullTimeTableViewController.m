@@ -171,7 +171,7 @@
         //set borders in table view
         cell.contentView.layer.cornerRadius=4;
         cell.contentView.layer.borderWidth=2;
-        cell.contentView.layer.borderColor= [UIColor yellowColor].CGColor;
+        cell.contentView.layer.borderColor= [UIColor blackColor].CGColor;
         
         
         

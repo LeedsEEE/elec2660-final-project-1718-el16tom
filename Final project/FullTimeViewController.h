@@ -10,7 +10,7 @@
 #import "Job.h"
 #import "FullTime_info.h"
 
-@interface FullTimeViewController : UIViewController
+@interface FullTimeViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate>
 //outlets
 @property (weak, nonatomic) IBOutlet UILabel *Company_name_label;
 @property (weak, nonatomic) IBOutlet UILabel *Type_of_job_label;
@@ -21,6 +21,8 @@
 
 @property (strong, nonatomic) Job *job;
 
+@property (weak, nonatomic) IBOutlet UIPickerView *Rating;
+@property (weak, nonatomic) IBOutlet UILabel *ratings_label;
 
 @end
 

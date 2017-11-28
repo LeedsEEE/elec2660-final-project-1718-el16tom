@@ -16,6 +16,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *availability_textfiled;
 
+
 @property (weak, nonatomic) IBOutlet UITextField *Name_textfiled;
 @property (weak, nonatomic) IBOutlet UITextField *Gender_textfield;
 @property (weak, nonatomic) IBOutlet UILabel *Name_label_reciever;
@@ -30,7 +31,7 @@
 - (IBAction)Background_pressed:(id)sender;
 
 
-
+@property UIDatePicker *datePicker;
 
 
 
