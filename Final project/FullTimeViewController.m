@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.Rating.delegate=self;
     self.Rating.dataSource=self;
-    
+    self.
     //connecting the storyboard
     self.Company_name_label.text= self.job.Company_name;
     self.Type_of_job_label.text= self.job.Type;
@@ -46,6 +46,11 @@
 - (void)pickerView:(UIPickerView *)pickerView
       didSelectRow:(NSInteger)row
        inComponent:(NSInteger)component{
+    self.rating_value = [self.Rating selectedRowInComponent:0];
+    
+    NSLog(@"row selected in the picker view= %ld",self.rating_value);
+    
+    self.ratings_label.text= [NSString stringWithFormat:@"You have rated this job: %ld",self.rating_value];
     
 }
 

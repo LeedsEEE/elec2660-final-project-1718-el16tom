@@ -23,6 +23,7 @@
 
 @property (weak, nonatomic) IBOutlet UIPickerView *Rating;
 @property (weak, nonatomic) IBOutlet UILabel *ratings_label;
+@property NSInteger rating_value;
 
 @end
 
