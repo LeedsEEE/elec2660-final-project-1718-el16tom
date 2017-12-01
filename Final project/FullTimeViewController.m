@@ -28,6 +28,13 @@
     self.Description_label.text= self.job.Description;
     self.Logo.image= self.job.Image_1;
     NSLog(@"storyboard elements connected to array");
+    
+    
+ 
+    
+    //https://stackoverflow.com/questions/11777072/how-to-set-a-default-value-of-a-uipickerview
+    //setting the initial value to be 5 in the pickeview row
+    [self.Rating selectRow:5 inComponent:0 animated:YES];
  
 }
 
@@ -62,4 +69,9 @@
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
     return 11;
 }
+
+
+
+
+
 @end

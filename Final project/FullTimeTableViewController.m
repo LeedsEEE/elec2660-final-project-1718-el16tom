@@ -81,17 +81,17 @@
     UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 27)];
     
     // 2.background
-    headerView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0];
-    headerView.layer.borderColor = [UIColor yellowColor].CGColor;
+    headerView.backgroundColor = NULL;
+    headerView.layer.borderColor = [UIColor blackColor].CGColor;
     headerView.layer.borderWidth = 2.0;
-    headerView.layer.cornerRadius= 2.0;
+    headerView.layer.cornerRadius= 4.0;
     // 3. Add a label
     
     
     UILabel* headerLabel = [[UILabel alloc] init];
     headerLabel.frame = CGRectMake(2, 0, tableView.frame.size.width - 5, 30);
-    headerLabel.backgroundColor = [UIColor colorWithRed:0.4 green:0 blue:0.4 alpha:1];
-    headerLabel.textColor = [UIColor yellowColor];
+    headerLabel.backgroundColor = [UIColor whiteColor];
+    headerLabel.textColor = [UIColor blueColor];
     headerLabel.font = [UIFont boldSystemFontOfSize:16.0];
     headerLabel.textAlignment = NSTextAlignmentCenter;
     
@@ -137,7 +137,7 @@
         //set borders in table view
         cell.contentView.layer.cornerRadius=4;
         cell.contentView.layer.borderWidth=2;
-        cell.contentView.layer.borderColor= [UIColor yellowColor].CGColor;
+        cell.contentView.layer.borderColor= [UIColor blackColor].CGColor;
         
         
         
@@ -155,7 +155,7 @@
         //set borders in table view
         cell.contentView.layer.cornerRadius=4;
         cell.contentView.layer.borderWidth=2;
-        cell.contentView.layer.borderColor= [UIColor yellowColor].CGColor;
+        cell.contentView.layer.borderColor= [UIColor blackColor].CGColor;
         
         
         

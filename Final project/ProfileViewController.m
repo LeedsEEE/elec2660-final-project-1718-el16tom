@@ -26,6 +26,17 @@
     datePicker.datePickerMode = UIDatePickerModeDate;
     [datePicker addTarget:self action:@selector(dateTextField:) forControlEvents:UIControlEventValueChanged];
     [self.availability_textfiled setInputView:datePicker];
+
+   //https://stackoverflow.com/questions/9499894/how-to-read-string-from-nsuserdefaults
+    //setting the profile to be the same as the last time
+   
+    self.Name_label_reciever.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"Name"];
+    self.Gender_label_reciever.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"gender"];
+    self.availability_label.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"availability"];
+   
+
+    
+  
 }
 
 
@@ -49,6 +60,11 @@
     self.Gender_label_reciever.text= self.Gender_textfield.text;
     self.availability_label.text= self.availability_textfiled.text;
     
+    
+    //adding an object to be saved
+    [[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@"%@",self.Name_label_reciever.text] forKey:@"Name"];
+     [[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@"%@",self.Gender_label_reciever.text] forKey:@"gender"];
+   [[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@"%@",self.availability_label.text] forKey:@"availability"];
     //the info inputted here was meant to be saved to the app so that it could be used on another tab, this would require using Coredata which I haven't worked out how to use
     //so can't implement it
 
