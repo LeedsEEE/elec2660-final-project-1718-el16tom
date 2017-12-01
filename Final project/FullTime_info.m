@@ -18,7 +18,7 @@
         PSR_solutions.Company_name= @"PSR Solutions";
         PSR_solutions.pay= @"£9.50 per hour";
         PSR_solutions.hours= @"45 hours a week";
-        PSR_solutions.Description=@"need to be ready to start within 2 weeks";
+        PSR_solutions.Description=@"Need to be ready to start within 2 weeks";
         PSR_solutions.Type=@"Refurbishing offices";
         PSR_solutions.Image_1= [UIImage imageNamed: @"PSR.png"];
     
@@ -26,7 +26,7 @@
         Venatu.Company_name= @"Venatu Consulting";
         Venatu.pay= @"£9.00 per hour";
         Venatu.hours= @"40 hours a week minimum";
-        Venatu.Description=@"heavy lifting involved";
+        Venatu.Description=@"Heavy lifting involved";
         Venatu.Type=@"Housing development";
         Venatu.Image_1= [UIImage imageNamed: @"Venatu.png"];
         
@@ -54,7 +54,7 @@
         Appleton_Academy.Company_name= @"Appleton Academy";
         Appleton_Academy.pay= @"£20,000 per year";
         Appleton_Academy.hours= @"50 hours a week";
-        Appleton_Academy.Description=@"working in a small team";
+        Appleton_Academy.Description=@"Working in a small team";
         Appleton_Academy.Type=@"IT support";
         Appleton_Academy.Image_1= [UIImage imageNamed: @"appleton_3.png"];
         
@@ -62,7 +62,7 @@
         Job *NRS  = [[Job alloc]init];
         NRS.Company_name= @"Nationwide Retail Systems Ltd ";
         NRS.pay= @"£17,000 per year";
-        NRS.hours= @"flexible week/weekend work";
+        NRS.hours= @"Flexible week/weekend work";
         NRS.Description=@"requires secondary education";
         NRS.Type=@"IT help desk";
         NRS.Image_1= [UIImage imageNamed: @"NRS_2.jpeg"];
@@ -71,7 +71,7 @@
         Christeyns.Company_name= @"Christeyns ";
         Christeyns.pay= @"Competitive salary";
         Christeyns.hours= @"4 full days a week";
-        Christeyns.Description=@"requires work experience in sector";
+        Christeyns.Description=@"Requires work experience in sector";
         Christeyns.Type=@"IT support";
         Christeyns.Image_1= [UIImage imageNamed: @"christeyns_2.png"];
         
@@ -98,8 +98,8 @@
         P_L.Company_name= @"Pizza labella";
         P_L.pay= @"£18,000 a year";
         P_L.hours= @"6 evenings a week";
-        P_L.Description=@"not cash in hand";
-        P_L.Type=@"grill chef";
+        P_L.Description=@"Not cash in hand";
+        P_L.Type=@"Grill chef";
         P_L.Image_1= [UIImage imageNamed: @"labella_2.jpg"];
         
         
@@ -107,8 +107,8 @@
         EMC.Company_name= @"Everyman Cinema";
         EMC.pay= @"£15,000 a year";
         EMC.hours= @"5 shifts a week";
-        EMC.Description=@"no experience required";
-        EMC.Type=@"plating dishes";
+        EMC.Description=@"No experience required";
+        EMC.Type=@"Plating dishes";
         EMC.Image_1= [UIImage imageNamed: @"Everyman-Cinema-Leeds_2.jpg"];
         
         
@@ -185,7 +185,7 @@
         GD.Company_name= @"Argyll and Bute Council";
         GD.pay= @"Competitive salary";
         GD.hours= @"9-5, Wednes-Sun";
-        GD.Description=@"Maintaing the graveyard";
+        GD.Description=@"Maintaining the graveyard";
         GD.Type=@"Grave digger";
         GD.Image_2= [UIImage imageNamed: @"GD.jpeg"];
         

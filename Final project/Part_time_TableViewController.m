@@ -58,7 +58,58 @@
 }
 
 
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 30;
+}
 
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    
+    // 1. The view for the header
+    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 27)];
+    
+    // 2.background
+    headerView.backgroundColor = NULL;
+    headerView.layer.borderColor = [UIColor blackColor].CGColor;
+    headerView.layer.borderWidth = 2.0;
+    headerView.layer.cornerRadius= 4.0;
+    // 3. Add a label
+    
+    
+    UILabel* headerLabel = [[UILabel alloc] init];
+    headerLabel.frame = CGRectMake(2, 0, tableView.frame.size.width - 5, 30);
+    headerLabel.backgroundColor = [UIColor whiteColor];
+    headerLabel.textColor = [UIColor blueColor];
+    headerLabel.font = [UIFont boldSystemFontOfSize:16.0];
+    headerLabel.textAlignment = NSTextAlignmentCenter;
+    
+    
+    
+    
+    if(section==0){
+        headerLabel.text = @"Hospitality";
+        
+    }
+    if(section==1){
+        headerLabel.text = @"Recptionist";
+    }
+    if(section==2){
+        headerLabel.text = @"Gardening";
+    }
+    
+    
+    
+    // 4. Add the label to the header view
+    [headerView addSubview:headerLabel];
+    
+    
+    
+    
+    
+    // 5. Finally return
+    return headerView;
+}
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell_2" forIndexPath:indexPath];
     
@@ -75,7 +126,7 @@
         //set borders in table view
         cell.contentView.layer.cornerRadius=4;
         cell.contentView.layer.borderWidth=2;
-        cell.contentView.layer.borderColor= [UIColor yellowColor].CGColor;
+        cell.contentView.layer.borderColor= [UIColor blackColor].CGColor;
     }
     if(indexPath.section==1){
         Job *tempJob= [self.job_info.receptionist  objectAtIndex: indexPath.row];
@@ -86,7 +137,7 @@
         //set borders in table view
         cell.contentView.layer.cornerRadius=4;
         cell.contentView.layer.borderWidth=2;
-        cell.contentView.layer.borderColor= [UIColor yellowColor].CGColor;
+        cell.contentView.layer.borderColor= [UIColor blackColor].CGColor;
     }
     if (indexPath.section==2) {
         Job *tempJob= [self.job_info.gardening  objectAtIndex: indexPath.row];
@@ -97,7 +148,7 @@
         //set borders in table view
         cell.contentView.layer.cornerRadius=4;
         cell.contentView.layer.borderWidth=2;
-        cell.contentView.layer.borderColor= [UIColor yellowColor].CGColor;
+        cell.contentView.layer.borderColor= [UIColor blackColor].CGColor;
     }
     
         
