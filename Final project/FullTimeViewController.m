@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.Rating.delegate=self;
     self.Rating.dataSource=self;
-    self.
+    
     //connecting the storyboard
     self.Company_name_label.text= self.job.Company_name;
     self.Type_of_job_label.text= self.job.Type;
@@ -43,7 +43,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-#pragma pickerView delegates
+#pragma pickerView 1 delegates
 - (NSString *)pickerView:(UIPickerView *)pickerView
              titleForRow:(NSInteger)row
             forComponent:(NSInteger)component{
@@ -61,7 +61,7 @@
     
 }
 
-#pragma pickerView datasources
+#pragma pickerView 1 datasources
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
     return 1;
 }
