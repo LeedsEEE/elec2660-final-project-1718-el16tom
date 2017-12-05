@@ -406,6 +406,12 @@
                                     <action selector="save_rating:" destination="Gah-L0-Tk7" eventType="touchUpInside" id="Aiw-e2-4fy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPF-mt-XEi">
+                                <state key="normal" title="Email company"/>
+                                <connections>
+                                    <action selector="email_company:" destination="Gah-L0-Tk7" eventType="touchUpInside" id="Fkc-m5-FzT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95319208499999997" green="1" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -420,6 +426,7 @@
                             <constraint firstItem="tkf-x2-kwX" firstAttribute="top" secondItem="eiA-qM-Fs8" secondAttribute="bottom" constant="219" id="8Tg-y7-YsJ"/>
                             <constraint firstItem="5af-HI-E9h" firstAttribute="leading" secondItem="9uO-ik-3c9" secondAttribute="trailing" constant="-116" id="9m9-bj-Lma"/>
                             <constraint firstItem="FMd-Dh-8Gy" firstAttribute="top" secondItem="C3M-86-KTj" secondAttribute="bottom" constant="15.5" id="ChN-2M-Yvl"/>
+                            <constraint firstItem="wPF-mt-XEi" firstAttribute="leading" secondItem="E8O-XI-YNK" secondAttribute="leadingMargin" constant="249" id="D6S-Yp-bX2"/>
                             <constraint firstItem="eiA-qM-Fs8" firstAttribute="leading" secondItem="E8O-XI-YNK" secondAttribute="leadingMargin" constant="127" id="EQ2-s2-b75"/>
                             <constraint firstAttribute="trailingMargin" secondItem="MHk-qA-J8c" secondAttribute="trailing" constant="-1" id="G7W-v9-mZ6"/>
                             <constraint firstItem="tkf-x2-kwX" firstAttribute="top" secondItem="MHk-qA-J8c" secondAttribute="bottom" constant="119" id="GZH-mp-H6v"/>
@@ -430,23 +437,26 @@
                             <constraint firstItem="ewK-yz-vjI" firstAttribute="leading" secondItem="E8O-XI-YNK" secondAttribute="leadingMargin" constant="62" id="NyE-eB-EcM"/>
                             <constraint firstItem="5fM-8C-VYG" firstAttribute="top" secondItem="R9F-JR-ieQ" secondAttribute="bottom" constant="130" id="OhP-0j-3Je"/>
                             <constraint firstItem="5af-HI-E9h" firstAttribute="leading" secondItem="FMd-Dh-8Gy" secondAttribute="trailing" constant="-116" id="P93-fW-f3s"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wPF-mt-XEi" secondAttribute="trailing" constant="-10" id="Q8M-vk-a5M"/>
                             <constraint firstItem="tkf-x2-kwX" firstAttribute="top" secondItem="5af-HI-E9h" secondAttribute="bottom" constant="453" id="QrT-Yb-8IZ"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Hlp-2b-6hz" secondAttribute="leading" id="UHX-gN-wSW"/>
                             <constraint firstAttribute="leadingMargin" secondItem="FMd-Dh-8Gy" secondAttribute="leading" id="a9t-cL-EF2"/>
                             <constraint firstItem="tkf-x2-kwX" firstAttribute="top" secondItem="2bM-ag-WCl" secondAttribute="bottom" constant="270" id="bA3-co-rXg"/>
+                            <constraint firstItem="tkf-x2-kwX" firstAttribute="top" secondItem="wPF-mt-XEi" secondAttribute="bottom" constant="8" id="bHe-Qk-03K"/>
                             <constraint firstItem="Hlp-2b-6hz" firstAttribute="top" secondItem="FMd-Dh-8Gy" secondAttribute="bottom" constant="8" id="buE-4P-sYV"/>
                             <constraint firstItem="9uO-ik-3c9" firstAttribute="top" secondItem="R9F-JR-ieQ" secondAttribute="bottom" constant="8" id="gWS-pb-QUZ"/>
                             <constraint firstItem="ewK-yz-vjI" firstAttribute="top" secondItem="R9F-JR-ieQ" secondAttribute="bottom" constant="471" id="jAP-O5-pNV"/>
                             <constraint firstItem="5af-HI-E9h" firstAttribute="top" secondItem="R9F-JR-ieQ" secondAttribute="bottom" constant="8" id="kOx-oU-zcQ"/>
+                            <constraint firstItem="wPF-mt-XEi" firstAttribute="top" secondItem="R9F-JR-ieQ" secondAttribute="bottom" constant="516" id="mL9-Yh-POa"/>
                             <constraint firstItem="5af-HI-E9h" firstAttribute="leading" secondItem="C3M-86-KTj" secondAttribute="trailing" constant="-116" id="o5H-Cs-Eux"/>
                             <constraint firstItem="2bM-ag-WCl" firstAttribute="leading" secondItem="E8O-XI-YNK" secondAttribute="leadingMargin" constant="99" id="ofd-WM-fiA"/>
                             <constraint firstAttribute="leadingMargin" secondItem="9uO-ik-3c9" secondAttribute="leading" id="pJB-jm-rUk"/>
                             <constraint firstItem="5af-HI-E9h" firstAttribute="leading" secondItem="E8O-XI-YNK" secondAttribute="leadingMargin" constant="227" id="sel-5i-68h"/>
                             <constraint firstItem="tkf-x2-kwX" firstAttribute="top" secondItem="XJy-YJ-hLy" secondAttribute="bottom" constant="8" id="syh-gw-Rwp"/>
-                            <constraint firstItem="XJy-YJ-hLy" firstAttribute="leading" secondItem="E8O-XI-YNK" secondAttribute="leadingMargin" constant="117" id="uHd-z2-2HE"/>
+                            <constraint firstItem="XJy-YJ-hLy" firstAttribute="leading" secondItem="E8O-XI-YNK" secondAttribute="leadingMargin" constant="1" id="uHd-z2-2HE"/>
                             <constraint firstItem="C3M-86-KTj" firstAttribute="top" secondItem="9uO-ik-3c9" secondAttribute="bottom" constant="8" id="vrk-hl-4GV"/>
                             <constraint firstAttribute="leadingMargin" secondItem="C3M-86-KTj" secondAttribute="leading" id="xZQ-2H-mcP"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="XJy-YJ-hLy" secondAttribute="trailing" constant="136" id="yjr-Cp-idc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XJy-YJ-hLy" secondAttribute="trailing" constant="252" id="yjr-Cp-idc"/>
                             <constraint firstItem="XJy-YJ-hLy" firstAttribute="top" secondItem="ewK-yz-vjI" secondAttribute="bottom" constant="24" id="z02-h2-Esn"/>
                         </constraints>
                     </view>

@@ -28,12 +28,15 @@
     self.Description_label.text= self.job.Description;
     self.Image_2.image= self.job.Image_2;
 
+    self.email = [[MFMailComposeViewController alloc]init];
+    self.email.mailComposeDelegate=self;
+
     
     NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
-    self.saved_value_2 =[defaults integerForKey:@"Saved_value"];
+    NSString *key = [NSString stringWithFormat:@"saved_value_%@",self.job.Company_name];
+    self.saved_value_2 =[defaults integerForKey:key];
     self.rating_reciever.text= [NSString stringWithFormat:@"You have rated this job: %ld",self.saved_value_2];
-    
-    
+    [self.Rating_2 selectRow:self.saved_value_2 inComponent:0 animated:YES];
     
 }
 
@@ -85,7 +88,27 @@
 
 - (IBAction)save_rating:(UIButton *)sender {
     NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
-    [defaults setInteger:self.rating_value_2 forKey:@"Saved_value_2"];
+    NSString *key = [NSString stringWithFormat:@"saved_value_%@",self.job.Company_name];
+    [defaults setInteger:self.rating_value_2 forKey:key];
     [defaults synchronize];
+}
+- (IBAction)email_company:(UIButton *)sender {
+    
+    MFMailComposeViewController *email = [[MFMailComposeViewController alloc]init];
+    if (![MFMailComposeViewController canSendMail]) {
+        NSLog(@"Mail services are not available.");
+        return;
+    }
+    
+    email.mailComposeDelegate=self;
+    [email setSubject:@"Applying for advertised job"];
+    [email setToRecipients:@[@"%@",self.name_label.text]];
+    //display email
+    [self presentViewController:email animated:YES completion:nil];
+}
+-(void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
+    [self dismissViewControllerAnimated:YES completion:nil];
+
+    
 }
 @end

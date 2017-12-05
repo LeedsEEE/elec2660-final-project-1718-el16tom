@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "Job.h"
 #import "FullTime_info.h"
+#import <MessageUI/MessageUI.h>
 
-@interface Part_time_ViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate>
+@interface Part_time_ViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate, MFMailComposeViewControllerDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *name_label;
 @property (weak, nonatomic) IBOutlet UILabel *Type_label;
 @property (weak, nonatomic) IBOutlet UILabel *Pay_label;
@@ -28,5 +29,7 @@
 @property (weak, nonatomic) IBOutlet UIPickerView *Rating_2;
 @property NSInteger rating_value_2;
 @property NSInteger saved_value_2;
+@property MFMailComposeViewController *email;
+- (IBAction)email_company:(UIButton *)sender;
 
 @end
