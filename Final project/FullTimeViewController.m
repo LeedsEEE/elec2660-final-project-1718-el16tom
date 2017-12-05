@@ -32,6 +32,7 @@
     self.email = [[MFMailComposeViewController alloc]init];
       self.email.mailComposeDelegate=self;
     
+    //calling saved data
     
     NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
     NSString *key = [NSString stringWithFormat:@"saved_value_%@",self.job.Company_name];
@@ -87,6 +88,8 @@
 
 
 - (IBAction)save_rating:(UIButton *)sender {
+    
+    //saving data
     NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
     NSString *key = [NSString stringWithFormat:@"saved_value_%@",self.job.Company_name];
     [defaults setInteger:self.rating_value forKey:key];
@@ -98,7 +101,7 @@
 //constructing email viewcontroller
 - (IBAction)email_company:(UIButton *)sender {
     
-    
+    //checking the user has an email setup to send from
     MFMailComposeViewController *email = [[MFMailComposeViewController alloc]init];
     if (![MFMailComposeViewController canSendMail]) {
         NSLog(@"Mail services are not available.");

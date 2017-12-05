@@ -171,9 +171,30 @@
         Derwent.Type=@"Help desk operator";
         Derwent.Image_2= [UIImage imageNamed: @"Derwent.png"];
         
+        
+   
+        Job *RFP = [[Job alloc]init];
+        RFP.Company_name= @"Regal Food Products";
+        RFP.pay= @"£7.50 an hour";
+        RFP.hours= @"4 days a week";
+        RFP.Description=@"Minimum of 2-5 years of work experience, preferably in a heavy manufacturing or industrial environment.\nOur Email:RFP@icloud.com";
+        RFP.Type=@"Admin Assistant";
+        RFP.Image_2= [UIImage imageNamed: @"regal.jpg"];//http://www.ife.co.uk/exhibitor-profile/regal-food-products-ltd
+        
+        
+        
+        Job *WLT = [[Job alloc]init];
+        WLT.Company_name= @"William Lea Tag";
+        WLT.pay= @"£16,000 a year";
+        WLT.hours= @"Flexible";
+        WLT.Description=@"Due to the high volume of responses received for this role we will not be able to contact all applicants directly. If you have not heard from us in four weeks please consider your application unsuccessful.\nEmail:Williams_tag@gmail.com";
+        WLT.Type=@"Office services";
+        WLT.Image_2= [UIImage imageNamed: @"WLT.png"];//https://pbs.twimg.com/profile_images/580327113603067904/rXo7GXvD.png
+        
+        
         [self.receptionist addObject:Derwent];
-        
-        
+        [self.receptionist addObject:RFP];
+        [self.receptionist addObject:WLT];
         
         
         
@@ -189,7 +210,29 @@
         GD.Type=@"Grave digger";
         GD.Image_2= [UIImage imageNamed: @"GD.jpeg"];
         
+        
+        Job *NCC = [[Job alloc]init];
+        NCC.Company_name= @"New Century Care";
+        NCC.pay= @"£8.00 an hour";
+        NCC.hours= @"30 hours a week";
+        NCC.Description=@"Complete the maintenance jobs required for the day\n Email:Newcenturycare@hotmail.co.uk";
+        NCC.Type=@"Maintenance person";
+        NCC.Image_2= [UIImage imageNamed: @"NCC.png"];//https://pbs.twimg.com/profile_images/884725678989594624/yswrReNz.jpg
+        
+        
+        
+        Job *HG = [[Job alloc]init];
+        HG.Company_name= @"Horticruitment UK Ltd";
+        HG.pay= @"£20,000 a year";
+        HG.hours= @"4 days a week";
+        HG.Description=@"Head gardener and the job comes with a 3 bed cottage to live in.\n Email: Horticruitment@icloud.com";
+        HG.Type=@"Head Gardener";
+        HG.Image_2= [UIImage imageNamed: @"HG.png"];//https://horticruitment.com/wp-content/uploads/2017/09/logo.svg
+        
+        
          [self.gardening addObject:GD];
+         [self.gardening addObject:NCC];
+         [self.gardening addObject:HG];
         
         
        
