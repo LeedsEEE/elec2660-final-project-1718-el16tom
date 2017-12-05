@@ -28,9 +28,12 @@
     self.Description_label.text= self.job.Description;
     self.Logo.image= self.job.Image_1;
     NSLog(@"storyboard elements connected to array");
+   
     
     
- 
+    NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
+     self.saved_value =[defaults integerForKey:@"Saved_value"];
+        self.ratings_label.text= [NSString stringWithFormat:@"You have rated this job: %ld",self.saved_value];
     
     //https://stackoverflow.com/questions/11777072/how-to-set-a-default-value-of-a-uipickerview
     //setting the initial value to be 5 in the pickeview row
@@ -55,9 +58,15 @@
        inComponent:(NSInteger)component{
     self.rating_value = [self.Rating selectedRowInComponent:0];
     
+    
+  
     NSLog(@"row selected in the picker view= %ld",self.rating_value);
     
+
+
+    
     self.ratings_label.text= [NSString stringWithFormat:@"You have rated this job: %ld",self.rating_value];
+    
     
 }
 
@@ -74,4 +83,10 @@
 
 
 
+- (IBAction)save_rating:(UIButton *)sender {
+    NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
+    [defaults setInteger:self.rating_value forKey:@"Saved_value"];
+    [defaults synchronize];
+    
+}
 @end

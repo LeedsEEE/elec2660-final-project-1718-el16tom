@@ -18,7 +18,7 @@
         PSR_solutions.Company_name= @"PSR Solutions";
         PSR_solutions.pay= @"£9.50 per hour";
         PSR_solutions.hours= @"45 hours a week";
-        PSR_solutions.Description=@"Need to be ready to start within 2 weeks";
+        PSR_solutions.Description=@"Need to be ready to start within 2 weeks and finish all the forms.";
         PSR_solutions.Type=@"Refurbishing offices";
         PSR_solutions.Image_1= [UIImage imageNamed: @"PSR.png"];
     
@@ -132,7 +132,7 @@
         Greggs.Company_name= @"Greggs";
         Greggs.pay= @"Upto £22,000 a year";
         Greggs.hours= @"Early morning shifts";
-        Greggs.Description=@"Employee benefits available";
+        Greggs.Description=@"Employee benefits available if you meet the required targets.";
         Greggs.Type=@"Store manager";
         Greggs.Image_2= [UIImage imageNamed: @"greggs_2.png"];
         

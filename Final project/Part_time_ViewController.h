@@ -15,7 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *Type_label;
 @property (weak, nonatomic) IBOutlet UILabel *Pay_label;
 @property (weak, nonatomic) IBOutlet UILabel *Hours_label;
-@property (weak, nonatomic) IBOutlet UILabel *Description_label;
+@property (weak, nonatomic) IBOutlet UITextView *Description_label;
 @property (weak, nonatomic) IBOutlet UIImageView *Image_2;
 @property (weak, nonatomic) IBOutlet UIImageView *logo;
 

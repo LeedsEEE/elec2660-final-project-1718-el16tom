@@ -22,6 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.job_info = [[FullTime_info alloc]init];
+   
+   
     
  
     // Uncomment the following line to preserve selection between presentations.

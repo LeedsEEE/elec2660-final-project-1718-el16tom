@@ -16,14 +16,17 @@
 @property (weak, nonatomic) IBOutlet UILabel *Type_of_job_label;
 @property (weak, nonatomic) IBOutlet UILabel *Pay_label;
 @property (weak, nonatomic) IBOutlet UILabel *Weekly_hours_label;
-@property (weak, nonatomic) IBOutlet UILabel *Description_label;
+
 @property (weak, nonatomic) IBOutlet UIImageView *Logo;
+@property (weak, nonatomic) IBOutlet UITextView *Description_label;
 
 @property (strong, nonatomic) Job *job;
 
 @property (weak, nonatomic) IBOutlet UIPickerView *Rating;
 @property (weak, nonatomic) IBOutlet UILabel *ratings_label;
 @property NSInteger rating_value;
+@property NSInteger saved_value;
+- (IBAction)save_rating:(UIButton *)sender;
 
 @end
 
