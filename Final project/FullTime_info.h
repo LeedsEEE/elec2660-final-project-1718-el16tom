@@ -24,6 +24,6 @@
 
 
 //pickeview array
-@property (strong, nonatomic) NSMutableArray *ratings_array;
+
 
 @end

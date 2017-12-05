@@ -34,12 +34,13 @@
     
     
     NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
-     self.saved_value =[defaults integerForKey:@"Saved_value"];
+    NSString *key = [NSString stringWithFormat:@"saved_value_%@",self.job.Company_name];
+     self.saved_value =[defaults integerForKey:key];
         self.ratings_label.text= [NSString stringWithFormat:@"You have rated this job: %ld",self.saved_value];
     
     //https://stackoverflow.com/questions/11777072/how-to-set-a-default-value-of-a-uipickerview
     //setting the initial value to be 5 in the pickeview row
-    [self.Rating selectRow:5 inComponent:0 animated:YES];
+    [self.Rating selectRow:self.saved_value inComponent:0 animated:YES];
  
 }
 
@@ -87,7 +88,8 @@
 
 - (IBAction)save_rating:(UIButton *)sender {
     NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
-    [defaults setInteger:self.rating_value forKey:@"Saved_value"];
+    NSString *key = [NSString stringWithFormat:@"saved_value_%@",self.job.Company_name];
+    [defaults setInteger:self.rating_value forKey:key];
     [defaults synchronize];
     
 }
