@@ -22,4 +22,8 @@
 @property (strong, nonatomic) NSMutableArray *receptionist;
 @property (strong, nonatomic) NSMutableArray *gardening;
 
+
+//pickeview array
+@property (strong, nonatomic) NSMutableArray *ratings_array;
+
 @end

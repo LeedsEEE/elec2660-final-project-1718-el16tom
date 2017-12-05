@@ -18,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *Description_label;
 @property (weak, nonatomic) IBOutlet UIImageView *Image_2;
 @property (weak, nonatomic) IBOutlet UIImageView *logo;
+- (IBAction)save_rating:(UIButton *)sender;
 
 @property (strong, nonatomic) Job *job;
 
@@ -26,5 +27,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *rating_reciever;
 @property (weak, nonatomic) IBOutlet UIPickerView *Rating_2;
 @property NSInteger rating_value_2;
+@property NSInteger saved_value_2;
 
 @end

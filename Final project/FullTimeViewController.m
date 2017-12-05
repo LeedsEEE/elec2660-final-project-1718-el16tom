@@ -29,6 +29,8 @@
     self.Logo.image= self.job.Image_1;
     NSLog(@"storyboard elements connected to array");
    
+    self.email = [[MFMailComposeViewController alloc]init];
+      self.email.mailComposeDelegate=self;
     
     
     NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
@@ -87,6 +89,28 @@
     NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
     [defaults setInteger:self.rating_value forKey:@"Saved_value"];
     [defaults synchronize];
+    
+}
+//https://www.youtube.com/watch?v=00rKDulqEto used to help with emails
+
+//constructing email viewcontroller
+- (IBAction)email_company:(UIButton *)sender {
+    
+    
+    MFMailComposeViewController *email = [[MFMailComposeViewController alloc]init];
+    if (![MFMailComposeViewController canSendMail]) {
+        NSLog(@"Mail services are not available.");
+        return;
+    }
+    
+    email.mailComposeDelegate=self;
+    [email setSubject:@"Applying for advertised job"];
+    [email setToRecipients:@[@"%@",self.Company_name_label.text]];
+ //display email
+    [self presentViewController:email animated:YES completion:nil];
+}
+-(void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
+    [self dismissViewControllerAnimated:YES completion:nil];
     
 }
 @end

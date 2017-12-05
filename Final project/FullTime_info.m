@@ -192,6 +192,11 @@
          [self.gardening addObject:GD];
         
         
+        //fulltime pickerview array
+        
+        self.ratings_array =[NSMutableArray array];
+        
+        
         
     }
     return self;

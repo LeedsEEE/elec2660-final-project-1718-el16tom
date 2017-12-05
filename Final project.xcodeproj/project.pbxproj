@@ -32,6 +32,7 @@
 		AA9166AB1FCC3D9B005787FA /* NHS.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9166AA1FCC3D9B005787FA /* NHS.png */; };
 		AA9166AD1FCC3F85005787FA /* AC.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9166AC1FCC3F85005787FA /* AC.png */; };
 		AAA7CC571FC868A300C0ED49 /* spade.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA7CC561FC868A300C0ED49 /* spade.png */; };
+		AAC79C021FD6EE0000B0051F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC79C011FD6EE0000B0051F /* MessageUI.framework */; };
 		AACADA861FBB35D300EA8641 /* Part_time_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA851FBB35D300EA8641 /* Part_time_TableViewController.m */; };
 		AACADA891FBB364600EA8641 /* Part_time_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA881FBB364600EA8641 /* Part_time_ViewController.m */; };
 		AACADA921FBB3E1800EA8641 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA911FBB3E1800EA8641 /* Job.m */; };
@@ -106,6 +107,7 @@
 		AA9166AA1FCC3D9B005787FA /* NHS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NHS.png; sourceTree = "<group>"; };
 		AA9166AC1FCC3F85005787FA /* AC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AC.png; sourceTree = "<group>"; };
 		AAA7CC561FC868A300C0ED49 /* spade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spade.png; sourceTree = "<group>"; };
+		AAC79C011FD6EE0000B0051F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		AACADA841FBB35D300EA8641 /* Part_time_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part_time_TableViewController.h; sourceTree = "<group>"; };
 		AACADA851FBB35D300EA8641 /* Part_time_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Part_time_TableViewController.m; sourceTree = "<group>"; };
 		AACADA871FBB364600EA8641 /* Part_time_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part_time_ViewController.h; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC79C021FD6EE0000B0051F /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +167,7 @@
 				AA25AF551FB216B700CA68CA /* Final projectTests */,
 				AA25AF601FB216B700CA68CA /* Final projectUITests */,
 				AA25AF371FB216B600CA68CA /* Products */,
+				AAC79C001FD6EE0000B0051F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -260,6 +264,14 @@
 				AA25AF631FB216B700CA68CA /* Info.plist */,
 			);
 			path = "Final projectUITests";
+			sourceTree = "<group>";
+		};
+		AAC79C001FD6EE0000B0051F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC79C011FD6EE0000B0051F /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

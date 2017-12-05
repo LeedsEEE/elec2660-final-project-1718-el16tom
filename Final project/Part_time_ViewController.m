@@ -29,6 +29,10 @@
     self.Image_2.image= self.job.Image_2;
 
     
+    NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
+    self.saved_value_2 =[defaults integerForKey:@"Saved_value"];
+    self.rating_reciever.text= [NSString stringWithFormat:@"You have rated this job: %ld",self.saved_value_2];
+    
     
     
 }
@@ -79,4 +83,9 @@
 
 
 
+- (IBAction)save_rating:(UIButton *)sender {
+    NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
+    [defaults setInteger:self.rating_value_2 forKey:@"Saved_value_2"];
+    [defaults synchronize];
+}
 @end

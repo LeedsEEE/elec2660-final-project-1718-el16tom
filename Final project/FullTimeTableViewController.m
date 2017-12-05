@@ -23,6 +23,7 @@
     [super viewDidLoad];
     self.job_info = [[FullTime_info alloc]init];
    
+    
    
     
  
