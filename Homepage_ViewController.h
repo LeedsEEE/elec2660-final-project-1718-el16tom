@@ -11,5 +11,6 @@
 @interface Homepage_ViewController : UIViewController
 - (IBAction)Enter_pressed:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIImageView *Logo;
+- (IBAction)info_button:(UIButton *)sender;
 
 @end

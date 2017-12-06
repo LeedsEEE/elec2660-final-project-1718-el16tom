@@ -32,8 +32,7 @@
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="LhV-rI-IAX"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Gender" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ySv-UK-wjw">
-                                <frame key="frameInset" minX="16" minY="247" width="343" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Gender" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ySv-UK-wjw">
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <color key="tintColor" red="1" green="0.82426714590000005" blue="0.091836490440000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -43,8 +42,7 @@
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="Fvo-S5-1pJ"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter starting availabilty" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="rSi-Ap-eGB">
-                                <frame key="frameInset" minX="16" minY="294" width="343" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter starting availabilty" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="rSi-Ap-eGB">
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <color key="tintColor" red="1" green="0.82426714590000005" blue="0.091836490440000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -59,14 +57,12 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qki-WB-xLQ">
-                                <frame key="frameInset" minX="16" minY="515" width="343" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qki-WB-xLQ">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Availability" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKj-JI-jCO">
-                                <frame key="frameInset" minX="16" minY="568" width="343" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Availability" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKj-JI-jCO">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -137,7 +133,7 @@
         <scene sceneID="hET-mw-iV5">
             <objects>
                 <navigationController id="JQN-CF-XJX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Full time" id="7Pj-yQ-ZiR"/>
+                    <tabBarItem key="tabBarItem" title="Full time" image="f_label.png" id="7Pj-yQ-ZiR"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5A0-E6-uKq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -349,26 +345,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Company name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uO-ik-3c9">
-                                <frame key="frameInset" minX="16" minY="72" width="343" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uO-ik-3c9">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Type of job" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3M-86-KTj">
-                                <frame key="frameInset" minX="16" minY="109" width="343" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type of job" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3M-86-KTj">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hlp-2b-6hz">
-                                <frame key="frameInset" minX="16" minY="174" width="343" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hlp-2b-6hz">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Weekly hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMd-Dh-8Gy">
-                                <frame key="frameInset" minX="16" minY="145" width="343" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekly hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMd-Dh-8Gy">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -395,7 +387,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fM-8C-VYG">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fM-8C-VYG">
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -482,7 +474,7 @@
         <scene sceneID="bln-Vq-pcS">
             <objects>
                 <navigationController id="uBQ-I6-EB9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Part time" id="r2h-zF-eCb"/>
+                    <tabBarItem key="tabBarItem" title="Part time" image="p_label.png" selectedImage="p_label.png" id="r2h-zF-eCb"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kSR-Sc-XTK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -503,7 +495,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="PRJ-SR-x7n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.91372549020000005" green="1" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.95319208499999997" green="1" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell_2" textLabel="8ME-PY-gEp" detailTextLabel="acc-vq-qHy" style="IBUITableViewCellStyleSubtitle" id="67i-3i-Eot">
@@ -529,7 +521,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.91372549020000005" green="1" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.95319208499999997" green="1" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <segue destination="Gah-L0-Tk7" kind="show" identifier="ShowJob" id="OGd-sQ-oLI"/>
                                 </connections>
@@ -564,7 +556,17 @@
                                     <action selector="Enter_pressed:" destination="9au-Zm-KaJ" eventType="touchUpInside" id="zRf-GQ-ESe"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="rJT-Ld-w0F"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="rJT-Ld-w0F">
+                                <frame key="frameInset" minX="67" minY="28" width="241" height="218"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="den-QR-nbu">
+                                <frame key="frameInset" minX="144" minY="325" width="87" height="72"/>
+                                <color key="backgroundColor" red="0.95319208499999997" green="1" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button" image="info_2.png"/>
+                                <connections>
+                                    <action selector="info_button:" destination="9au-Zm-KaJ" eventType="touchUpInside" id="EdS-0j-4NT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95319208499999997" green="1" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -572,9 +574,13 @@
                             <constraint firstItem="sms-YW-fUo" firstAttribute="leading" secondItem="rVs-YH-LNS" secondAttribute="leadingMargin" constant="103" id="DYR-8g-pcj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sms-YW-fUo" secondAttribute="trailing" constant="103" id="I8p-hP-Z2L"/>
                             <constraint firstItem="sms-YW-fUo" firstAttribute="top" secondItem="FzQ-7e-TMV" secondAttribute="bottom" constant="355" id="IIS-g6-cEg"/>
+                            <constraint firstItem="den-QR-nbu" firstAttribute="top" secondItem="rJT-Ld-w0F" secondAttribute="bottom" constant="79" id="IRO-9N-GBY"/>
+                            <constraint firstItem="vkT-le-LxD" firstAttribute="top" secondItem="den-QR-nbu" secondAttribute="bottom" constant="270" id="PSh-Bl-VnX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rJT-Ld-w0F" secondAttribute="trailing" constant="51" id="TDf-Fe-uWy"/>
                             <constraint firstItem="vkT-le-LxD" firstAttribute="top" secondItem="sms-YW-fUo" secondAttribute="bottom" constant="100" id="ZfF-PN-mLa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="den-QR-nbu" secondAttribute="trailing" constant="128" id="fKu-eW-Cta"/>
                             <constraint firstItem="rJT-Ld-w0F" firstAttribute="leading" secondItem="rVs-YH-LNS" secondAttribute="leadingMargin" constant="51" id="goS-JF-qjD"/>
+                            <constraint firstItem="den-QR-nbu" firstAttribute="leading" secondItem="rVs-YH-LNS" secondAttribute="leadingMargin" constant="128" id="sju-ed-aOc"/>
                         </constraints>
                     </view>
                     <connections>
@@ -609,7 +615,10 @@
     </scenes>
     <resources>
         <image name="60x60_pp.png" width="64" height="64"/>
+        <image name="f_label.png" width="25" height="25"/>
+        <image name="info_2.png" width="198" height="200"/>
         <image name="logo.png" width="220" height="218"/>
+        <image name="p_label.png" width="25" height="25"/>
         <image name="pp.png" width="25" height="25"/>
         <image name="profile_pic.png" width="157" height="118"/>
     </resources>
