@@ -23,7 +23,7 @@
 @property (strong, nonatomic) NSMutableArray *gardening;
 
 
-//pickeview array
+
 
 
 @end

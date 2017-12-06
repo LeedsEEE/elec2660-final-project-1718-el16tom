@@ -43,6 +43,7 @@
 		AAB01B8E1FD7F84B00516F31 /* p_label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB01B8D1FD7F84B00516F31 /* p_label@2x.png */; };
 		AAB01B901FD7F87500516F31 /* p_label@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB01B8F1FD7F87500516F31 /* p_label@1x.png */; };
 		AAB01B921FD7FF3A00516F31 /* info_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB01B911FD7FF3A00516F31 /* info_2.png */; };
+		AAB01B941FD8063C00516F31 /* map_of_leeds.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB01B931FD8063C00516F31 /* map_of_leeds.png */; };
 		AAC79C021FD6EE0000B0051F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC79C011FD6EE0000B0051F /* MessageUI.framework */; };
 		AACADA861FBB35D300EA8641 /* Part_time_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA851FBB35D300EA8641 /* Part_time_TableViewController.m */; };
 		AACADA891FBB364600EA8641 /* Part_time_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADA881FBB364600EA8641 /* Part_time_ViewController.m */; };
@@ -129,6 +130,7 @@
 		AAB01B8D1FD7F84B00516F31 /* p_label@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "p_label@2x.png"; path = "../../../../Desktop/p_label@2x.png"; sourceTree = "<group>"; };
 		AAB01B8F1FD7F87500516F31 /* p_label@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "p_label@1x.png"; path = "../../../../Desktop/p_label@1x.png"; sourceTree = "<group>"; };
 		AAB01B911FD7FF3A00516F31 /* info_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info_2.png; path = ../../../../Desktop/info_2.png; sourceTree = "<group>"; };
+		AAB01B931FD8063C00516F31 /* map_of_leeds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_of_leeds.png; path = ../../../../Desktop/map_of_leeds.png; sourceTree = "<group>"; };
 		AAC79C011FD6EE0000B0051F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		AACADA841FBB35D300EA8641 /* Part_time_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part_time_TableViewController.h; sourceTree = "<group>"; };
 		AACADA851FBB35D300EA8641 /* Part_time_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Part_time_TableViewController.m; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				AA25AF481FB216B700CA68CA /* Assets.xcassets */,
 				AA25AF4A1FB216B700CA68CA /* LaunchScreen.storyboard */,
 				AA25AF4D1FB216B700CA68CA /* Info.plist */,
+				AAB01B931FD8063C00516F31 /* map_of_leeds.png */,
 				AAB01B911FD7FF3A00516F31 /* info_2.png */,
 				AAB01B8B1FD7F81A00516F31 /* p_label@3x.png */,
 				AAB01B8D1FD7F84B00516F31 /* p_label@2x.png */,
@@ -430,6 +433,7 @@
 				AA5474F51FC754480039D1B2 /* EP.png in Resources */,
 				AAD072321FCC446A00ED9CEC /* NRS_2.jpeg in Resources */,
 				AA9166AD1FCC3F85005787FA /* AC.png in Resources */,
+				AAB01B941FD8063C00516F31 /* map_of_leeds.png in Resources */,
 				AAD072421FCC4D9900ED9CEC /* GD.jpeg in Resources */,
 				AA5474F11FC7503C0039D1B2 /* NRS.jpeg in Resources */,
 				AA0C217F1FCDC269009A3EC6 /* logo.png in Resources */,

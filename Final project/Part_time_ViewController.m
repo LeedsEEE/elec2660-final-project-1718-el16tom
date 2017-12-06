@@ -105,6 +105,7 @@
     [email setToRecipients:@[@"%@",self.name_label.text]];
     //display email
     [self presentViewController:email animated:YES completion:nil];
+    NSLog(@"email selected");
 }
 -(void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
     [self dismissViewControllerAnimated:YES completion:nil];

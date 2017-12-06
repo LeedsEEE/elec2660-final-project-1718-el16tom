@@ -21,9 +21,10 @@
     
    self.availability_textfiled.delegate = self;
    
+    //initialising the datepicker
     UIDatePicker *datePicker = [[UIDatePicker alloc]init];
     [datePicker setDate:[NSDate date]];
-    datePicker.datePickerMode = UIDatePickerModeDate;
+    datePicker.datePickerMode = UIDatePickerModeDate;//setting the mose of the date picker
     [datePicker addTarget:self action:@selector(dateTextField:) forControlEvents:UIControlEventValueChanged];
     [self.availability_textfiled setInputView:datePicker];
 
@@ -32,7 +33,7 @@
    
     self.Name_label_reciever.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"Name"];
     self.Gender_label_reciever.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"gender"];
-    self.availability_label.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"availability"];
+    self.availability_label.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"availability"];//each textfield needs an individual key so that each bit of info is saved seperately
    
 
     
@@ -62,7 +63,7 @@
     
     
     //adding an object to be saved
-    [[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@"%@",self.Name_label_reciever.text] forKey:@"Name"];
+    [[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@"%@",self.Name_label_reciever.text] forKey:@"Name"];//creating the saved objects
      [[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@"%@",self.Gender_label_reciever.text] forKey:@"gender"];
    [[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@"%@",self.availability_label.text] forKey:@"availability"];
     //the info inputted here was meant to be saved to the app so that it could be used on another tab, this would require using Coredata which I haven't worked out how to use
@@ -103,17 +104,17 @@
     [textField resignFirstResponder];
 
     return YES;
-
+#pragma datepicker delegates
 };
  // https://stackoverflow.com/questions/30034951/how-do-i-add-a-date-of-birth-uidatepicker-to-uitextfield
 -(void) dateTextField:(id)sender{
-    UIDatePicker *datePicker = (UIDatePicker*)self.availability_textfiled.inputView;
+    UIDatePicker *datePicker = (UIDatePicker*)self.availability_textfiled.inputView; //sets the availability keyboard to be a date picker
     [datePicker setMaximumDate:[NSDate date]];
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
     NSDate *eventDate = datePicker.date;
-    [dateFormat setDateFormat:@"dd/MM/yyyy"];
+    [dateFormat setDateFormat:@"dd/MM/yyyy"];//setting the format of the date picker
     NSString *dateString = [dateFormat stringFromDate:eventDate];
-    self.availability_textfiled.text = [NSString stringWithFormat:@"%@",dateString];
+    self.availability_textfiled.text = [NSString stringWithFormat:@"%@",dateString];//setting the input text in the textfield to be the date from the date picker
 }
 
 

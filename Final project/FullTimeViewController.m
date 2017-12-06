@@ -29,18 +29,18 @@
     self.Logo.image= self.job.Image_1;
     NSLog(@"storyboard elements connected to array");
    
+    //initialising email
     self.email = [[MFMailComposeViewController alloc]init];
-      self.email.mailComposeDelegate=self;
+    self.email.mailComposeDelegate=self;
     
     //calling saved data
-    
     NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
     NSString *key = [NSString stringWithFormat:@"saved_value_%@",self.job.Company_name];
-     self.saved_value =[defaults integerForKey:key];
-        self.ratings_label.text= [NSString stringWithFormat:@"You have rated this job: %ld",self.saved_value];
+    self.saved_value =[defaults integerForKey:key];
+    self.ratings_label.text= [NSString stringWithFormat:@"You have rated this job: %ld",self.saved_value];
     
-    //https://stackoverflow.com/questions/11777072/how-to-set-a-default-value-of-a-uipickerview
-    //setting the initial value to be 5 in the pickeview row
+ 
+    //setting the initial value to be the same as the saved value from last time in the pickeview row
     [self.Rating selectRow:self.saved_value inComponent:0 animated:YES];
  
 }
@@ -107,15 +107,16 @@
         NSLog(@"Mail services are not available.");
         return;
     }
-    
+#pragma email delegate
     email.mailComposeDelegate=self;
     [email setSubject:@"Applying for advertised job"];
     [email setToRecipients:@[@"%@",self.Company_name_label.text]];
  //display email
     [self presentViewController:email animated:YES completion:nil];
+    NSLog(@"email seleceted");
 }
 -(void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];//if the cancel button is pressed then the screen will disappear
     
 }
 @end
