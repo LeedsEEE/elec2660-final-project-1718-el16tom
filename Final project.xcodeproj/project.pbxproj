@@ -14,6 +14,18 @@
 		AA0CB7A61FD95D6E00243426 /* LCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7A51FD95D6E00243426 /* LCC.jpg */; };
 		AA0CB7A81FD95FC900243426 /* EP_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7A71FD95FC900243426 /* EP_3.jpeg */; };
 		AA0CB7AA1FD960E700243426 /* regal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7A91FD960E700243426 /* regal.jpg */; };
+		AA0CB7AC1FD96C5100243426 /* map_logo_40.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7AB1FD96C5100243426 /* map_logo_40.png */; };
+		AA0CB7AE1FD96C5E00243426 /* map_logo_60.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7AD1FD96C5E00243426 /* map_logo_60.png */; };
+		AA0CB7B01FD96C6800243426 /* map_logo_58.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7AF1FD96C6800243426 /* map_logo_58.png */; };
+		AA0CB7B21FD96C7100243426 /* map_logo_87.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7B11FD96C7100243426 /* map_logo_87.png */; };
+		AA0CB7B41FD96C8000243426 /* map_logo_80.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7B31FD96C8000243426 /* map_logo_80.png */; };
+		AA0CB7B61FD96C8800243426 /* map_logo_120.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7B51FD96C8800243426 /* map_logo_120.png */; };
+		AA0CB7B81FD96C9900243426 /* map_logo_180.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7B71FD96C9900243426 /* map_logo_180.png */; };
+		AA0CB7BA1FD96CA600243426 /* map_logo_20.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7B91FD96CA600243426 /* map_logo_20.png */; };
+		AA0CB7BC1FD96CBB00243426 /* map_logo_29.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7BB1FD96CBA00243426 /* map_logo_29.png */; };
+		AA0CB7BE1FD96CDA00243426 /* map_logo_76.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7BD1FD96CDA00243426 /* map_logo_76.png */; };
+		AA0CB7C01FD96CE100243426 /* map_logo_152.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7BF1FD96CE100243426 /* map_logo_152.png */; };
+		AA0CB7C21FD96CED00243426 /* map_logo_167.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7C11FD96CED00243426 /* map_logo_167.png */; };
 		AA17884D1FD7159A00D8030A /* NCC.png in Resources */ = {isa = PBXBuildFile; fileRef = AA17884C1FD7159A00D8030A /* NCC.png */; };
 		AA17884F1FD717FB00D8030A /* WLT.png in Resources */ = {isa = PBXBuildFile; fileRef = AA17884E1FD717FB00D8030A /* WLT.png */; };
 		AA1788511FD71BC100D8030A /* WLT.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1788501FD71BC100D8030A /* WLT.png */; };
@@ -94,6 +106,18 @@
 		AA0CB7A51FD95D6E00243426 /* LCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = LCC.jpg; path = ../../../Desktop/LCC.jpg; sourceTree = "<group>"; };
 		AA0CB7A71FD95FC900243426 /* EP_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EP_3.jpeg; path = ../../../Desktop/EP_3.jpeg; sourceTree = "<group>"; };
 		AA0CB7A91FD960E700243426 /* regal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = regal.jpg; path = ../../../Desktop/regal.jpg; sourceTree = "<group>"; };
+		AA0CB7AB1FD96C5100243426 /* map_logo_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_logo_40.png; path = ../../../Desktop/map_logo_40.png; sourceTree = "<group>"; };
+		AA0CB7AD1FD96C5E00243426 /* map_logo_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_logo_60.png; path = ../../../Desktop/map_logo_60.png; sourceTree = "<group>"; };
+		AA0CB7AF1FD96C6800243426 /* map_logo_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_logo_58.png; path = ../../../Desktop/map_logo_58.png; sourceTree = "<group>"; };
+		AA0CB7B11FD96C7100243426 /* map_logo_87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_logo_87.png; path = ../../../Desktop/map_logo_87.png; sourceTree = "<group>"; };
+		AA0CB7B31FD96C8000243426 /* map_logo_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_logo_80.png; path = ../../../Desktop/map_logo_80.png; sourceTree = "<group>"; };
+		AA0CB7B51FD96C8800243426 /* map_logo_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_logo_120.png; path = ../../../Desktop/map_logo_120.png; sourceTree = "<group>"; };
+		AA0CB7B71FD96C9900243426 /* map_logo_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_logo_180.png; path = ../../../Desktop/map_logo_180.png; sourceTree = "<group>"; };
+		AA0CB7B91FD96CA600243426 /* map_logo_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_logo_20.png; path = ../../../Desktop/map_logo_20.png; sourceTree = "<group>"; };
+		AA0CB7BB1FD96CBA00243426 /* map_logo_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_logo_29.png; path = ../../../Desktop/map_logo_29.png; sourceTree = "<group>"; };
+		AA0CB7BD1FD96CDA00243426 /* map_logo_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_logo_76.png; path = ../../../Desktop/map_logo_76.png; sourceTree = "<group>"; };
+		AA0CB7BF1FD96CE100243426 /* map_logo_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_logo_152.png; path = ../../../Desktop/map_logo_152.png; sourceTree = "<group>"; };
+		AA0CB7C11FD96CED00243426 /* map_logo_167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_logo_167.png; path = ../../../Desktop/map_logo_167.png; sourceTree = "<group>"; };
 		AA17884C1FD7159A00D8030A /* NCC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NCC.png; sourceTree = "<group>"; };
 		AA17884E1FD717FB00D8030A /* WLT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WLT.png; sourceTree = "<group>"; };
 		AA1788501FD71BC100D8030A /* WLT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WLT.png; sourceTree = "<group>"; };
@@ -235,6 +259,18 @@
 				AACADA851FBB35D300EA8641 /* Part_time_TableViewController.m */,
 				AA25AF481FB216B700CA68CA /* Assets.xcassets */,
 				AA25AF4A1FB216B700CA68CA /* LaunchScreen.storyboard */,
+				AA0CB7AB1FD96C5100243426 /* map_logo_40.png */,
+				AA0CB7AD1FD96C5E00243426 /* map_logo_60.png */,
+				AA0CB7AF1FD96C6800243426 /* map_logo_58.png */,
+				AA0CB7B11FD96C7100243426 /* map_logo_87.png */,
+				AA0CB7B31FD96C8000243426 /* map_logo_80.png */,
+				AA0CB7B51FD96C8800243426 /* map_logo_120.png */,
+				AA0CB7B71FD96C9900243426 /* map_logo_180.png */,
+				AA0CB7B91FD96CA600243426 /* map_logo_20.png */,
+				AA0CB7BB1FD96CBA00243426 /* map_logo_29.png */,
+				AA0CB7BD1FD96CDA00243426 /* map_logo_76.png */,
+				AA0CB7BF1FD96CE100243426 /* map_logo_152.png */,
+				AA0CB7C11FD96CED00243426 /* map_logo_167.png */,
 				AA0CB7A91FD960E700243426 /* regal.jpg */,
 				AA0CB7A51FD95D6E00243426 /* LCC.jpg */,
 				AA25AF4D1FB216B700CA68CA /* Info.plist */,
@@ -437,6 +473,7 @@
 				AA9166AB1FCC3D9B005787FA /* NHS.png in Resources */,
 				AAEE68511FC822E200451CBC /* Everyman-Cinema-Leeds.jpg in Resources */,
 				AAD072301FCC43B400ED9CEC /* appleton_2.png in Resources */,
+				AA0CB7B01FD96C6800243426 /* map_logo_58.png in Resources */,
 				AA5474F31FC751930039D1B2 /* christeyns.png in Resources */,
 				AA1788511FD71BC100D8030A /* WLT.png in Resources */,
 				AA5474F51FC754480039D1B2 /* EP_2.png in Resources */,
@@ -449,24 +486,35 @@
 				AA0CB7A61FD95D6E00243426 /* LCC.jpg in Resources */,
 				AA25AF4C1FB216B700CA68CA /* LaunchScreen.storyboard in Resources */,
 				AAD0723E1FCC476700ED9CEC /* labella_2.jpg in Resources */,
+				AA0CB7AE1FD96C5E00243426 /* map_logo_60.png in Resources */,
 				AA0C217B1FCDC013009A3EC6 /* pp@2x.png in Resources */,
+				AA0CB7B81FD96C9900243426 /* map_logo_180.png in Resources */,
 				AAD0723C1FCC474700ED9CEC /* Everyman-Cinema-Leeds_2.jpg in Resources */,
 				AA0CB7AA1FD960E700243426 /* regal.jpg in Resources */,
+				AA0CB7B21FD96C7100243426 /* map_logo_87.png in Resources */,
+				AA0CB7BA1FD96CA600243426 /* map_logo_20.png in Resources */,
 				AA0C21791FCDBFAE009A3EC6 /* pp@1x.png in Resources */,
 				AA1788531FD71E5500D8030A /* HG.png in Resources */,
 				AAEE93011FC5EB2400F82094 /* 60x60_pp.png in Resources */,
 				AAA7CC571FC868A300C0ED49 /* spade.png in Resources */,
+				AA0CB7C01FD96CE100243426 /* map_logo_152.png in Resources */,
+				AA0CB7C21FD96CED00243426 /* map_logo_167.png in Resources */,
 				AA5474EF1FC7484E0039D1B2 /* appleton.png in Resources */,
+				AA0CB7B61FD96C8800243426 /* map_logo_120.png in Resources */,
+				AA0CB7BE1FD96CDA00243426 /* map_logo_76.png in Resources */,
 				AAD0723A1FCC46E400ED9CEC /* greggs_2.png in Resources */,
 				AA25AF491FB216B700CA68CA /* Assets.xcassets in Resources */,
 				AA0C217D1FCDC099009A3EC6 /* pp@3x.png in Resources */,
+				AA0CB7AC1FD96C5100243426 /* map_logo_40.png in Resources */,
 				AA3340081FC48C2000320400 /* PSR.png in Resources */,
 				AA25AF471FB216B700CA68CA /* Main.storyboard in Resources */,
 				AAB01B901FD7F87500516F31 /* p_label@1x.png in Resources */,
 				AA17884F1FD717FB00D8030A /* WLT.png in Resources */,
+				AA0CB7B41FD96C8000243426 /* map_logo_80.png in Resources */,
 				AAB01B881FD7F63900516F31 /* F_image@2x.png in Resources */,
 				AA9166A91FCC3CC3005787FA /* greggs.png in Resources */,
 				AAD072361FCC44EC00ED9CEC /* appleton_3.png in Resources */,
+				AA0CB7BC1FD96CBB00243426 /* map_logo_29.png in Resources */,
 				AA33400A1FC48C2600320400 /* Skills.png in Resources */,
 				AAEE684F1FC81F8A00451CBC /* labella.jpg in Resources */,
 				AAEE92FF1FC5E78C00F82094 /* profile_pic.png in Resources */,
