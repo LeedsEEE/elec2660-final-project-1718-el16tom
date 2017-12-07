@@ -69,7 +69,7 @@
 
 
     
-    self.ratings_label.text= [NSString stringWithFormat:@"You have rated this job: %ld",self.rating_value];
+    self.ratings_label.text= [NSString stringWithFormat:@"You have rated this job: %ld",self.rating_value]; //making the ratings label to output the value recieved from the pickerview
     
     
 }

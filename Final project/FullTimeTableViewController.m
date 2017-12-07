@@ -65,7 +65,7 @@
         count = self.job_info.Chef.count;
     }
     
-    return count;
+    return count;//this is counting how many jobs there are in each section and then making that number of rows for them
     
 }
 
@@ -89,7 +89,6 @@
     headerView.layer.borderWidth = 2.0;
     headerView.layer.cornerRadius= 4.0;
     // 3. Add a label
-    
     
     UILabel* headerLabel = [[UILabel alloc] init];
     headerLabel.frame = CGRectMake(2, 0, tableView.frame.size.width - 5, 30);

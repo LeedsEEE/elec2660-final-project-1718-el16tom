@@ -24,9 +24,9 @@
     //initialising the datepicker
     UIDatePicker *datePicker = [[UIDatePicker alloc]init];
     [datePicker setDate:[NSDate date]];
-    datePicker.datePickerMode = UIDatePickerModeDate;//setting the mose of the date picker
+    datePicker.datePickerMode = UIDatePickerModeDate;//setting the mode of the date picker
     [datePicker addTarget:self action:@selector(dateTextField:) forControlEvents:UIControlEventValueChanged];
-    [self.availability_textfiled setInputView:datePicker];
+    [self.availability_textfiled setInputView:datePicker];//setting the input of the textfield to be the datepicker
 
    //https://stackoverflow.com/questions/9499894/how-to-read-string-from-nsuserdefaults
     //setting the profile to be the same as the last time
@@ -81,15 +81,17 @@
     
     if ([self.Name_textfiled isFirstResponder]) {
         [self.Name_textfiled resignFirstResponder];
+        NSLog(@"background pressed");
     }
    if ([self.Gender_textfield isFirstResponder]) {
         [self.Gender_textfield resignFirstResponder];
-        
+           NSLog(@"background pressed");
    }
     
 
        if ([self.availability_textfiled isFirstResponder]) {
            [self.availability_textfiled resignFirstResponder];
+          NSLog(@"background pressed");
        }
     
 }
@@ -102,6 +104,7 @@
     
     
     [textField resignFirstResponder];
+       NSLog(@"return button pressed");
 
     return YES;
 #pragma datepicker delegates
@@ -109,12 +112,12 @@
  // https://stackoverflow.com/questions/30034951/how-do-i-add-a-date-of-birth-uidatepicker-to-uitextfield
 -(void) dateTextField:(id)sender{
     UIDatePicker *datePicker = (UIDatePicker*)self.availability_textfiled.inputView; //sets the availability keyboard to be a date picker
-    [datePicker setMaximumDate:[NSDate date]];
+    [datePicker setMaximumDate:nil];
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
     NSDate *eventDate = datePicker.date;
     [dateFormat setDateFormat:@"dd/MM/yyyy"];//setting the format of the date picker
     NSString *dateString = [dateFormat stringFromDate:eventDate];
-    self.availability_textfiled.text = [NSString stringWithFormat:@"%@",dateString];//setting the input text in the textfield to be the date from the date picker
+    self.availability_textfiled.text = [NSString stringWithFormat:@"%@",dateString];//setting the input text in the textfield to be formatted like the datepicker
 }
 
 
