@@ -101,8 +101,9 @@
     }
     
     email.mailComposeDelegate=self;
+    //adding subject
     [email setSubject:@"Applying for advertised job"];
-    [email setToRecipients:@[@"%@",self.name_label.text]];
+  
     //display email
     [self presentViewController:email animated:YES completion:nil];
     NSLog(@"email selected");

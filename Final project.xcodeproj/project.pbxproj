@@ -11,6 +11,9 @@
 		AA0C217B1FCDC013009A3EC6 /* pp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0C217A1FCDC013009A3EC6 /* pp@2x.png */; };
 		AA0C217D1FCDC099009A3EC6 /* pp@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0C217C1FCDC098009A3EC6 /* pp@3x.png */; };
 		AA0C217F1FCDC269009A3EC6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0C217E1FCDC269009A3EC6 /* logo.png */; };
+		AA0CB7A61FD95D6E00243426 /* LCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7A51FD95D6E00243426 /* LCC.jpg */; };
+		AA0CB7A81FD95FC900243426 /* EP_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7A71FD95FC900243426 /* EP_3.jpeg */; };
+		AA0CB7AA1FD960E700243426 /* regal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB7A91FD960E700243426 /* regal.jpg */; };
 		AA17884D1FD7159A00D8030A /* NCC.png in Resources */ = {isa = PBXBuildFile; fileRef = AA17884C1FD7159A00D8030A /* NCC.png */; };
 		AA17884F1FD717FB00D8030A /* WLT.png in Resources */ = {isa = PBXBuildFile; fileRef = AA17884E1FD717FB00D8030A /* WLT.png */; };
 		AA1788511FD71BC100D8030A /* WLT.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1788501FD71BC100D8030A /* WLT.png */; };
@@ -31,7 +34,7 @@
 		AA5474EF1FC7484E0039D1B2 /* appleton.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5474EE1FC7484E0039D1B2 /* appleton.png */; };
 		AA5474F11FC7503C0039D1B2 /* NRS.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA5474F01FC7503C0039D1B2 /* NRS.jpeg */; };
 		AA5474F31FC751930039D1B2 /* christeyns.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5474F21FC751930039D1B2 /* christeyns.png */; };
-		AA5474F51FC754480039D1B2 /* EP.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5474F41FC754480039D1B2 /* EP.png */; };
+		AA5474F51FC754480039D1B2 /* EP_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5474F41FC754480039D1B2 /* EP_2.png */; };
 		AA9166A91FCC3CC3005787FA /* greggs.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9166A81FCC3CC3005787FA /* greggs.png */; };
 		AA9166AB1FCC3D9B005787FA /* NHS.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9166AA1FCC3D9B005787FA /* NHS.png */; };
 		AA9166AD1FCC3F85005787FA /* AC.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9166AC1FCC3F85005787FA /* AC.png */; };
@@ -88,6 +91,9 @@
 		AA0C217A1FCDC013009A3EC6 /* pp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp@2x.png"; sourceTree = "<group>"; };
 		AA0C217C1FCDC098009A3EC6 /* pp@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp@3x.png"; sourceTree = "<group>"; };
 		AA0C217E1FCDC269009A3EC6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		AA0CB7A51FD95D6E00243426 /* LCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = LCC.jpg; path = ../../../Desktop/LCC.jpg; sourceTree = "<group>"; };
+		AA0CB7A71FD95FC900243426 /* EP_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EP_3.jpeg; path = ../../../Desktop/EP_3.jpeg; sourceTree = "<group>"; };
+		AA0CB7A91FD960E700243426 /* regal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = regal.jpg; path = ../../../Desktop/regal.jpg; sourceTree = "<group>"; };
 		AA17884C1FD7159A00D8030A /* NCC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NCC.png; sourceTree = "<group>"; };
 		AA17884E1FD717FB00D8030A /* WLT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WLT.png; sourceTree = "<group>"; };
 		AA1788501FD71BC100D8030A /* WLT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WLT.png; sourceTree = "<group>"; };
@@ -118,7 +124,7 @@
 		AA5474EE1FC7484E0039D1B2 /* appleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appleton.png; sourceTree = "<group>"; };
 		AA5474F01FC7503C0039D1B2 /* NRS.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NRS.jpeg; sourceTree = "<group>"; };
 		AA5474F21FC751930039D1B2 /* christeyns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = christeyns.png; sourceTree = "<group>"; };
-		AA5474F41FC754480039D1B2 /* EP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EP.png; sourceTree = "<group>"; };
+		AA5474F41FC754480039D1B2 /* EP_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EP_2.png; sourceTree = "<group>"; };
 		AA9166A81FCC3CC3005787FA /* greggs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greggs.png; sourceTree = "<group>"; };
 		AA9166AA1FCC3D9B005787FA /* NHS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NHS.png; sourceTree = "<group>"; };
 		AA9166AC1FCC3F85005787FA /* AC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AC.png; sourceTree = "<group>"; };
@@ -229,7 +235,10 @@
 				AACADA851FBB35D300EA8641 /* Part_time_TableViewController.m */,
 				AA25AF481FB216B700CA68CA /* Assets.xcassets */,
 				AA25AF4A1FB216B700CA68CA /* LaunchScreen.storyboard */,
+				AA0CB7A91FD960E700243426 /* regal.jpg */,
+				AA0CB7A51FD95D6E00243426 /* LCC.jpg */,
 				AA25AF4D1FB216B700CA68CA /* Info.plist */,
+				AA0CB7A71FD95FC900243426 /* EP_3.jpeg */,
 				AAB01B931FD8063C00516F31 /* map_of_leeds.png */,
 				AAB01B911FD7FF3A00516F31 /* info_2.png */,
 				AAB01B8B1FD7F81A00516F31 /* p_label@3x.png */,
@@ -255,7 +264,7 @@
 				AAD072411FCC4D9900ED9CEC /* GD.jpeg */,
 				AA5474F01FC7503C0039D1B2 /* NRS.jpeg */,
 				AA5474F21FC751930039D1B2 /* christeyns.png */,
-				AA5474F41FC754480039D1B2 /* EP.png */,
+				AA5474F41FC754480039D1B2 /* EP_2.png */,
 				AA1788521FD71E5500D8030A /* HG.png */,
 				AAD072371FCC46A400ED9CEC /* EP_2.png */,
 				AAD0723B1FCC474700ED9CEC /* Everyman-Cinema-Leeds_2.jpg */,
@@ -430,17 +439,19 @@
 				AAD072301FCC43B400ED9CEC /* appleton_2.png in Resources */,
 				AA5474F31FC751930039D1B2 /* christeyns.png in Resources */,
 				AA1788511FD71BC100D8030A /* WLT.png in Resources */,
-				AA5474F51FC754480039D1B2 /* EP.png in Resources */,
+				AA5474F51FC754480039D1B2 /* EP_2.png in Resources */,
 				AAD072321FCC446A00ED9CEC /* NRS_2.jpeg in Resources */,
 				AA9166AD1FCC3F85005787FA /* AC.png in Resources */,
 				AAB01B941FD8063C00516F31 /* map_of_leeds.png in Resources */,
 				AAD072421FCC4D9900ED9CEC /* GD.jpeg in Resources */,
 				AA5474F11FC7503C0039D1B2 /* NRS.jpeg in Resources */,
 				AA0C217F1FCDC269009A3EC6 /* logo.png in Resources */,
+				AA0CB7A61FD95D6E00243426 /* LCC.jpg in Resources */,
 				AA25AF4C1FB216B700CA68CA /* LaunchScreen.storyboard in Resources */,
 				AAD0723E1FCC476700ED9CEC /* labella_2.jpg in Resources */,
 				AA0C217B1FCDC013009A3EC6 /* pp@2x.png in Resources */,
 				AAD0723C1FCC474700ED9CEC /* Everyman-Cinema-Leeds_2.jpg in Resources */,
+				AA0CB7AA1FD960E700243426 /* regal.jpg in Resources */,
 				AA0C21791FCDBFAE009A3EC6 /* pp@1x.png in Resources */,
 				AA1788531FD71E5500D8030A /* HG.png in Resources */,
 				AAEE93011FC5EB2400F82094 /* 60x60_pp.png in Resources */,
@@ -459,6 +470,7 @@
 				AA33400A1FC48C2600320400 /* Skills.png in Resources */,
 				AAEE684F1FC81F8A00451CBC /* labella.jpg in Resources */,
 				AAEE92FF1FC5E78C00F82094 /* profile_pic.png in Resources */,
+				AA0CB7A81FD95FC900243426 /* EP_3.jpeg in Resources */,
 				AAD072401FCC491800ED9CEC /* Derwent.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

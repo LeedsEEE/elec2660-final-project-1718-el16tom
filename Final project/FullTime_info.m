@@ -18,26 +18,26 @@
         PSR_solutions.Company_name= @"PSR Solutions";
         PSR_solutions.pay= @"£9.50 per hour";
         PSR_solutions.hours= @"45 hours a week";
-        PSR_solutions.Description=@"Need to be ready to start within 2 weeks and finish all the forms.";
+        PSR_solutions.Description=@"Need to be ready to start within 2 weeks and finish all the forms.\nTo conact us please send us an email to PSR_solutions@gmail.com";
         PSR_solutions.Type=@"Refurbishing offices";
-        PSR_solutions.Image_1= [UIImage imageNamed: @"PSR.png"];
+        PSR_solutions.Image_1= [UIImage imageNamed: @"PSR.png"];//https://media-exp2.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAg7AAAAJDc1YmU4ZGVkLWRkY2QtNDk5Yy04Y2ViLTMyM2M2NGMxNGNiZQ.png
     
         Job *Venatu = [[Job alloc]init];
         Venatu.Company_name= @"Venatu Consulting";
         Venatu.pay= @"£9.00 per hour";
         Venatu.hours= @"40 hours a week minimum";
-        Venatu.Description=@"Heavy lifting involved";
+        Venatu.Description=@"Heavy lifting involved so the new employee must be physically fit.\nContact info:\nEmail: Venatu@yahoo.co.uk\nTelephone:074575932079";
         Venatu.Type=@"Housing development";
-        Venatu.Image_1= [UIImage imageNamed: @"Venatu.png"];
+        Venatu.Image_1= [UIImage imageNamed: @"Venatu.png"];//https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAi2AAAAJGNmOWEwOWZkLWFlMjYtNDQ5ZS1iNDUxLWU3YjllNTFmYjgxOQ.png
         
         
         Job *Skills_resource = [[Job alloc]init];
         Skills_resource.Company_name= @"Skills Resource";
         Skills_resource.pay= @"From £7.50 to £8.40 per hour";
         Skills_resource.hours= @"37 hours a week minimum";
-        Skills_resource.Description=@"Help making bespoke furniture";
+        Skills_resource.Description=@"Help making bespoke furniture such as dinning tables and chairs. Potential canidates must be highly skilled\nEmail:Skillsresource@hotmail.co.uk";
         Skills_resource.Type=@"Crafting";
-        Skills_resource.Image_1= [UIImage imageNamed: @"Skills.png"];
+        Skills_resource.Image_1= [UIImage imageNamed: @"Skills.png"];//https://www.totaljobs.com/CompanyLogos/2c9ee27c25494144b2370593e1995cbc.png
         
         
         
@@ -54,9 +54,9 @@
         Appleton_Academy.Company_name= @"Appleton Academy";
         Appleton_Academy.pay= @"£20,000 per year";
         Appleton_Academy.hours= @"50 hours a week";
-        Appleton_Academy.Description=@"Working in a small team";
+        Appleton_Academy.Description=@"Working in a small team you will be required to help with a wide range of IT issues.\nTelephone contact:";
         Appleton_Academy.Type=@"IT support";
-        Appleton_Academy.Image_1= [UIImage imageNamed: @"appleton_3.png"];
+        Appleton_Academy.Image_1= [UIImage imageNamed: @"appleton_3.png"];//http://www.appletonacademy.co.uk/templates/appleton/images/appleton-academy.png
         
         
         Job *NRS  = [[Job alloc]init];
@@ -91,7 +91,7 @@
         Ecco_Pizzeria.hours= @"6 days a week";
         Ecco_Pizzeria.Description=@"2 years experience required";
         Ecco_Pizzeria.Type=@"Preparing Pizza & Pasta dishes";
-        Ecco_Pizzeria.Image_1= [UIImage imageNamed: @"EP_2.png"];
+        Ecco_Pizzeria.Image_1= [UIImage imageNamed: @"EP_3.jpeg"];//https://pbs.twimg.com/profile_images/2645248078/95decb68ffa99ba379661e5369bfe7c6.jpeg
         
         
         Job *P_L = [[Job alloc]init];
@@ -202,13 +202,13 @@
         //second tableview third array
         
         self.gardening = [NSMutableArray array];
-        Job *GD = [[Job alloc]init];
-        GD.Company_name= @"Argyll and Bute Council";
-        GD.pay= @"Competitive salary";
-        GD.hours= @"9-5, Wednes-Sun";
-        GD.Description=@"Maintaining the graveyard";
-        GD.Type=@"Grave digger";
-        GD.Image_2= [UIImage imageNamed: @"GD.jpeg"];
+        Job *LCC = [[Job alloc]init];
+        LCC.Company_name= @"Leeds council";
+        LCC.pay= @"Competitive salary";
+        LCC.hours= @"9-5, Wednes-Sun";
+        LCC.Description=@"Maintaining the graveyard";
+        LCC.Type=@"Grave digger";
+        LCC.Image_2= [UIImage imageNamed: @"LCC.jpg"];//https://www.ncass.org.uk/images/default-source/default-album/leeds-city-council711BD99E9F14.jpg?sfvrsn=2
         
         
         Job *NCC = [[Job alloc]init];
@@ -230,7 +230,7 @@
         HG.Image_2= [UIImage imageNamed: @"HG.png"];//https://horticruitment.com/wp-content/uploads/2017/09/logo.svg
         
         
-         [self.gardening addObject:GD];
+         [self.gardening addObject:LCC];
          [self.gardening addObject:NCC];
          [self.gardening addObject:HG];
         

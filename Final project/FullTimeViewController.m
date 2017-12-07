@@ -109,8 +109,10 @@
     }
 #pragma email delegate
     email.mailComposeDelegate=self;
+    
+    //adding subject to the email
     [email setSubject:@"Applying for advertised job"];
-    [email setToRecipients:@[@"%@",self.Company_name_label.text]];
+  
  //display email
     [self presentViewController:email animated:YES completion:nil];
     NSLog(@"email seleceted");
@@ -119,4 +121,6 @@
     [self dismissViewControllerAnimated:YES completion:nil];//if the cancel button is pressed then the screen will disappear
     
 }
+
+
 @end

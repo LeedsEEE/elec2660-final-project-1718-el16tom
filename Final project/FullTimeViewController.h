@@ -1,3 +1,4 @@
+
 //
 //  SecondViewController.h
 //  Final project
@@ -30,6 +31,7 @@
 - (IBAction)save_rating:(UIButton *)sender;
 - (IBAction)email_company:(UIButton *)sender;
 @property MFMailComposeViewController *email;
+
 
 @end
 
