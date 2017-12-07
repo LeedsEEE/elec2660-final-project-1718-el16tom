@@ -24,15 +24,15 @@
                         </subviews>
                         <color key="backgroundColor" red="0.95319208499999997" green="1" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="pmB-3U-lkc" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="249" id="5eS-xX-sfe"/>
-                            <constraint firstAttribute="trailing" secondItem="7nw-81-ANp" secondAttribute="trailing" constant="117" id="8dn-Lp-mhy"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="7nw-81-ANp" secondAttribute="bottom" constant="8" id="9bg-vg-MeX"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="pmB-3U-lkc" secondAttribute="trailing" constant="46" id="DtI-WX-VFA"/>
-                            <constraint firstItem="7nw-81-ANp" firstAttribute="top" secondItem="pmB-3U-lkc" secondAttribute="bottom" constant="-397" id="EC0-Xb-Hsk"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="7nw-81-ANp" secondAttribute="bottom" id="ESP-WV-Mba"/>
-                            <constraint firstItem="7nw-81-ANp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="J9H-Be-gEs"/>
-                            <constraint firstItem="7nw-81-ANp" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="KCF-pd-sUA"/>
-                            <constraint firstItem="pmB-3U-lkc" firstAttribute="leading" secondItem="7nw-81-ANp" secondAttribute="trailing" constant="-185" id="Sve-UB-esl"/>
+                            <constraint firstItem="pmB-3U-lkc" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="251" id="5eS-xX-sfe"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="7nw-81-ANp" secondAttribute="bottom" constant="-6" id="9bg-vg-MeX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pmB-3U-lkc" secondAttribute="trailing" constant="62" id="CoP-WZ-WMh"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="7nw-81-ANp" secondAttribute="bottom" constant="-6" id="ESP-WV-Mba"/>
+                            <constraint firstItem="7nw-81-ANp" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-8" id="KCF-pd-sUA"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="pmB-3U-lkc" secondAttribute="bottom" constant="274" id="Lc3-CV-xVT"/>
+                            <constraint firstItem="pmB-3U-lkc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="61" id="W6l-jy-1z6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7nw-81-ANp" secondAttribute="trailing" constant="-10" id="pk6-41-ZNH"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="7nw-81-ANp" secondAttribute="leading" id="urb-9P-0XE"/>
                         </constraints>
                     </view>
                 </viewController>

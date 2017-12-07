@@ -133,7 +133,7 @@
         <scene sceneID="hET-mw-iV5">
             <objects>
                 <navigationController id="JQN-CF-XJX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Full time" image="f_label.png" id="7Pj-yQ-ZiR"/>
+                    <tabBarItem key="tabBarItem" title="Full time" image="first" id="7Pj-yQ-ZiR"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5A0-E6-uKq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -474,7 +474,7 @@
         <scene sceneID="bln-Vq-pcS">
             <objects>
                 <navigationController id="uBQ-I6-EB9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Part time" image="p_label.png" selectedImage="p_label.png" id="r2h-zF-eCb"/>
+                    <tabBarItem key="tabBarItem" title="Part time" image="second" selectedImage="p_label.png" id="r2h-zF-eCb"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kSR-Sc-XTK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -556,11 +556,8 @@
                                     <action selector="Enter_pressed:" destination="9au-Zm-KaJ" eventType="touchUpInside" id="zRf-GQ-ESe"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="rJT-Ld-w0F">
-                                <frame key="frameInset" minX="67" minY="28" width="241" height="218"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="den-QR-nbu">
-                                <frame key="frameInset" minX="144" minY="325" width="87" height="72"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="rJT-Ld-w0F"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="den-QR-nbu">
                                 <color key="backgroundColor" red="0.95319208499999997" green="1" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button" image="info_2.png"/>
                                 <connections>
@@ -570,16 +567,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.95319208499999997" green="1" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="den-QR-nbu" firstAttribute="top" secondItem="FzQ-7e-TMV" secondAttribute="bottom" constant="305" id="1Lp-Xe-TQs"/>
                             <constraint firstItem="rJT-Ld-w0F" firstAttribute="top" secondItem="FzQ-7e-TMV" secondAttribute="bottom" constant="8" id="BbM-CN-KQG"/>
                             <constraint firstItem="sms-YW-fUo" firstAttribute="leading" secondItem="rVs-YH-LNS" secondAttribute="leadingMargin" constant="103" id="DYR-8g-pcj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sms-YW-fUo" secondAttribute="trailing" constant="103" id="I8p-hP-Z2L"/>
                             <constraint firstItem="sms-YW-fUo" firstAttribute="top" secondItem="FzQ-7e-TMV" secondAttribute="bottom" constant="355" id="IIS-g6-cEg"/>
-                            <constraint firstItem="den-QR-nbu" firstAttribute="top" secondItem="rJT-Ld-w0F" secondAttribute="bottom" constant="79" id="IRO-9N-GBY"/>
-                            <constraint firstItem="vkT-le-LxD" firstAttribute="top" secondItem="den-QR-nbu" secondAttribute="bottom" constant="270" id="PSh-Bl-VnX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rJT-Ld-w0F" secondAttribute="trailing" constant="51" id="TDf-Fe-uWy"/>
                             <constraint firstItem="vkT-le-LxD" firstAttribute="top" secondItem="sms-YW-fUo" secondAttribute="bottom" constant="100" id="ZfF-PN-mLa"/>
                             <constraint firstAttribute="trailingMargin" secondItem="den-QR-nbu" secondAttribute="trailing" constant="128" id="fKu-eW-Cta"/>
                             <constraint firstItem="rJT-Ld-w0F" firstAttribute="leading" secondItem="rVs-YH-LNS" secondAttribute="leadingMargin" constant="51" id="goS-JF-qjD"/>
+                            <constraint firstItem="vkT-le-LxD" firstAttribute="top" secondItem="den-QR-nbu" secondAttribute="bottom" constant="282" id="h47-ZI-bxr"/>
                             <constraint firstItem="den-QR-nbu" firstAttribute="leading" secondItem="rVs-YH-LNS" secondAttribute="leadingMargin" constant="128" id="sju-ed-aOc"/>
                         </constraints>
                     </view>
@@ -615,11 +612,12 @@
     </scenes>
     <resources>
         <image name="60x60_pp.png" width="64" height="64"/>
-        <image name="f_label.png" width="25" height="25"/>
+        <image name="first" width="30" height="30"/>
         <image name="info_2.png" width="198" height="200"/>
         <image name="logo.png" width="220" height="218"/>
         <image name="p_label.png" width="25" height="25"/>
         <image name="pp.png" width="25" height="25"/>
         <image name="profile_pic.png" width="157" height="118"/>
+        <image name="second" width="30" height="30"/>
     </resources>
 </document>
